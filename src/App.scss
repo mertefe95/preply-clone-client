@@ -1,4 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
   padding: 0;
@@ -37,4 +38,101 @@
   padding-bottom: 40px;
   height: 100%;
   width: 100%;
+}
+
+#google-login {
+  background-color: #5a95f5;
+}
+
+.login-form {
+  margin-bottom: 100px;
+  background-color: #fff;
+  font-family: "Roboto";
+  height: 60vh;
+  width: 40vw;
+}
+
+.upper-login {
+  display: flex;
+  justify-content: space-around;
+}
+
+.login-text {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.login-span {
+  font-size: 14px;
+  color: #63c3cb;
+}
+
+.login-span-text {
+  font-size: 14px;
+  color: #999;
+}
+
+.login-form-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edeff0;
+  height: 100vh;
+}
+
+.or-span {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: #999;
+  margin: 8px 0px;
+  font-size: 14px;
+}
+.or-span::before,
+.or-span::after {
+  content: "";
+  flex-grow: 1;
+  background: #999;
+  height: 0.6px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 8px;
+}
+
+.form-label {
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 600;
+  line-height: 18px;
+  color: #333;
+  letter-spacing: 0.5px;
+}
+
+.form-input {
+  background: #fffcc8;
+  border-color: #ebd5aa;
+}
+
+.formspan {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  color: #63c3cb;
+  font-family: "Roboto";
+}
+
+.form-span-p {
+  color: #63c3cb;
+  text-decoration: none;
+}
+
+.formspan-link {
+  text-decoration: none;
+}
+
+.bottom-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
