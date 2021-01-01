@@ -304,3 +304,12 @@
   transition: border linear 0.2s, box-shadow linear 0.2s;
   background-color: #fffcc8;
 }
+
+.form-input {
+  line-height: 20px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  height: 18px;
+}
