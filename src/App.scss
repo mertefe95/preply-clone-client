@@ -152,3 +152,46 @@
   line-height: 20.5667px;
   background-color: #32393f;
 }
+
+.upper-links,
+.upper-links:hover {
+  color: #e3e5e6;
+}
+
+.below-links,
+.below-links:hover {
+  color: #e3e5e6;
+  text-decoration: none;
+}
+
+.footer-h {
+  font-size: 16px;
+  line-height: normal;
+  color: #fff;
+  font-weight: inherit;
+}
+
+.upper-first-div {
+  display: flex;
+}
+
+.upper-first-ul {
+  list-style: none;
+  padding: 50px;
+}
+
+.upper-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.upper-below-div {
+  display: flex;
+}
+
+.upper-second-ul {
+  list-style: none;
+}
