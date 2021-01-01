@@ -19,6 +19,8 @@ export default function Header() {
         <li className="header-li"><Link className="header-link">Become a tutor</Link></li>
       </ul>
       </div>
+     
+   
       
       <div className="second-half-nav">
       <ul className="rightside-icons">
@@ -31,13 +33,6 @@ export default function Header() {
       </div>
       </Navbar>
 
-      <div className="image-div">
-      <img
-      src="https://preply.com/static/ssr/_next/static/images/tutor-large-1-1c240a3731e85e892830d732fe7ff9d7.webp"
-      alt="header-img"
-      className="img"/>
-      
-    </div>
     
       
       
