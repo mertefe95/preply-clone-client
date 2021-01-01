@@ -198,3 +198,54 @@
   list-style: none;
   padding: 30px;
 }
+
+.lower-upper-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lower-ul {
+  list-style: none;
+  padding: 50px;
+}
+
+.lower-lower-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.lowest-ul {
+  display: flex;
+  list-style: none;
+}
+
+.lowest-ul > li {
+  padding: 0 15px;
+}
+
+.facebook-icon {
+  height: 30px;
+  font-size: 16px;
+}
+
+.vk-icon {
+  color: #384047;
+  background-color: white;
+}
+
+.usa-flag {
+  height: 10px;
+  padding: 0 5px;
+}
+
+.usa {
+  color: white;
+}
+
+.icon {
+  height: 20px;
+  margin: 5px;
+  font-size: 16px;
+}
