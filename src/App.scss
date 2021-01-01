@@ -10,10 +10,12 @@
 .navbar {
   font-family: "Arial";
   font-size: 14px;
-  color: black;
+  color: white;
   background: transparent;
+  background-color: transparent;
   display: flex;
   justify-content: space-evenly;
+  background-color: black;
 }
 
 .rightside-icons {
@@ -248,4 +250,48 @@
   height: 20px;
   margin: 5px;
   font-size: 16px;
+}
+
+.image-div {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 100px;
+}
+
+.first-half-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+}
+
+.second-half-nav {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.header-title {
+  color: white;
+  font-size: 14px;
+}
+
+.navbar:hover svg path {
+  fill: #fff;
+}
+
+.preply-svg {
+  height: 25px;
 }
