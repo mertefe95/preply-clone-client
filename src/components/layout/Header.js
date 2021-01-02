@@ -19,9 +19,7 @@ export default function Header() {
         <li className="header-li"><Link className="header-link">Become a tutor</Link></li>
       </ul>
       </div>
-     
-   
-      
+    
       <div className="second-half-nav">
       <ul className="rightside-icons">
       <li className="header-li"><Link className="header-link"><HelpOutlineIcon /></Link></li>
