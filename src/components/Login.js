@@ -30,17 +30,16 @@ const Login = () => {
 
     <div className="bottom-form">
 
-    <Form.Group>
+    <Form.Group className="form-group">
       <Form.Label className="form-label" htmlFor="email-input"> Email </Form.Label>
       <Form.Control className="form-input" type="email" id="email-input" name="email-input" />
     </Form.Group>
 
     <Form.Group className="form-group">
       <Form.Label className="form-label" htmlFor="password-input"> Password </Form.Label>
-      <Form.Control className="form-input" id="password-input" name="password-input" type="password" /> 
+      <Form.Control className="form-input" id="password-input" name="password-input" type="password" style={{ border: "none" }} /> 
       <Form.Text><Link className="formspan-link"><p className="form-span-p">Forgot Password?</p></Link></Form.Text>
     </Form.Group>
-      
 
     
     <span className="checkbox-span">
