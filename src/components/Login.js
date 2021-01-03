@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Button, Form, Row } from 'react-bootstrap';
-import { Input } from "@material-ui/core";
+import { Button } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
 
 const Login = () => {
   const [name, setName] = useState("");
@@ -14,11 +14,34 @@ const Login = () => {
     setUrl(response.profileObj.imageUrl);
   }
 
+  const useStyles = makeStyles((theme) => ({
+    root: {
+      '& > *': {
+        margin: theme.spacing(1)
+      },
+    },
+    buttonStyles: {
+      fontFamily: 'Roboto',
+      fontUppercase: false,
+      fontSize: "16px",
+      fontWeight: "500",
+      border: "none",
+      padding: "15px",
+      borderRadius: "2px",
+      cursor: "pointer",
+      color: "#fff",
+      backgroundColor: "rgb(80, 187, 196)"
+    }
+  }));
+
+  const classes = useStyles();
+
+
 
   return (
     <div className="login-form-div">
     
-  <Form className="login-form">
+  <form className="login-form">
     <div className="upper-login">
       <h4 className="login-text">Log in</h4>
       <p className="login-span-text"><Link className="formspan-link"><span className="login-span">Sign up as student</span></Link> or <Link><span className="login-span">Sign up as a tutor</span></Link></p>
@@ -30,33 +53,30 @@ const Login = () => {
 
     <div className="bottom-form">
 
-    <Form.Group className="form-group">
-      <Form.Label className="form-label" htmlFor="email-input"> Email </Form.Label>
-      <Form.Control className="form-input" type="email" id="email-input" name="email-input" />
-    </Form.Group>
+    <div className="form-group email-div">
+      <label className="form-label" htmlFor="email-input"> Email </label>
+      <input className="form-input" type="email" id="email-input" name="email-input" />
+    </div>
 
-    <Form.Group className="form-group">
-      <Form.Label className="form-label" htmlFor="password-input"> Password </Form.Label>
-      <Form.Control className="form-input" id="password-input" name="password-input" type="password" style={{ border: "none" }} /> 
-      <Form.Text><Link className="formspan-link"><p className="form-span-p">Forgot Password?</p></Link></Form.Text>
-    </Form.Group>
+    <div className="form-group password-div">
+      <label className="form-label" htmlFor="password-input"> Password </label>
+      <input className="form-input" id="password-input" name="password-input" type="password" style={{ border: "none" }} /> 
+      <span><Link className="formspan-link"><p className="form-span-p">Forgot Password?</p></Link></span>
+    </div>
 
     
     <span className="checkbox-span">
-      
       <input type="checkbox" label="Remember me" id="checkbox" />
       <label htmlFor="checkbox">Remember me</label>
     </span>
-    <button className="btn btn-success">
-    Log in
-    </button>
 
-    <Button className="mt-3" style={{ backgroundColor: "rgb(80, 187, 196)", borderColor: "rgb(80, 187, 196)" }} size="lg">
-asd
+
+    <Button variant="contained" className={classes.buttonStyles}>
+    Log in
     </Button>
     </div>
 
-</Form>
+</form>
 
 </div>
 )

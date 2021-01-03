@@ -12,6 +12,20 @@ $button-border-color: rgb(80, 187, 196);
 $button-hover-color: #63c3cb;
 $button-active-color: #35a1aa;
 
+$theme-colors: (
+  "preply-color": rgb(80, 187, 196),
+);
+
+$arial: "Arial";
+$roboto: "Roboto";
+
+@mixin flexCenter($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
 .navbar {
   font-family: "Arial";
   font-size: 14px;
@@ -363,10 +377,6 @@ $button-active-color: #35a1aa;
   height: 100%;
 }
 
-.below-img-div {
-  background-color: red;
-}
-
 .btn {
   padding: 10px 120px;
   background-color: $button-color;
@@ -384,4 +394,47 @@ $button-active-color: #35a1aa;
 
 .form-group {
   display: flex;
+}
+
+.email-form-group {
+  padding-top: 100px;
+}
+
+.globe-upper-header {
+  font-family: $arial;
+  color: #384047;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.globe-upper-p {
+  font-family: $arial;
+  font-size: 18px;
+  line-height: 1.42;
+  text-align: center;
+  font-weight: 300;
+  color: #6f757b;
+}
+
+.globe-icon {
+  width: 64px;
+  height: 64px;
+  background: #3bb3bd;
+  color: white;
+  border-radius: 50%;
+
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+}
+
+.globe-marker-icon {
+  display: block;
+  width: 50px;
+  cursor: pointer;
+  font-size: 14px;
+  height: 50px;
 }
