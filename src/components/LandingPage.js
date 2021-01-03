@@ -124,6 +124,20 @@ const LandingPage = () => (
         </li>
       </ul>
 
+
+      <div className="skills-icon-break bottom-clock">
+      <span class="skills-top-icon"><svg width="32" height="32" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg"><title>Combined Shape</title><g id="Main-Page" fill="none" fill-rule="evenodd"><g id="01_1_Main_page_Web" transform="translate(-77 -2291)" fill-rule="nonzero" fill="#3BB3BD"><g id="Online-tutoring" transform="translate(32 1119)"><g transform="translate(32 1159)" id="Block"><g id="clock_icon"><g id="clock" transform="translate(13 13)"><path d="M11 22C4.925 22 0 17.075 0 11S4.925 0 11 0s11 4.925 11 11-4.925 11-11 11zm0-2a9 9 0 1 0 0-18 9 9 0 0 0 0 18zm1-15v5.586l2.707 2.707a1 1 0 0 1-1.414 1.414l-3-3A1 1 0 0 1 10 11V5a1 1 0 0 1 2 0z" id="Combined-Shape"></path></g></g></g></g></g></g></svg></span>
+      </div>
+      
+      <div className="skills-title">
+        <h2 className="skills-h2">Request a private tutor</h2>
+        <p className="skills-subtitle">Post your requirements and let tutors find you</p>
+      </div>
+
+      <div className="private-tutor-button">
+        <Link className="private-tutor-link">Post Request</Link>
+      </div>
+
       </Paper>
       </div>
     </Container>

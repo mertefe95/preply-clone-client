@@ -511,3 +511,104 @@ $roboto: "Roboto";
   font-size: 16px;
   line-height: 1.4285714;
 }
+
+.skills-ul {
+  font-family: "Arial";
+  font-size: 14px;
+  line-height: normal;
+  font-weight: 400;
+  padding: 32px 16px;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.skills-li {
+  text-align: left;
+  align-items: flex-start;
+  flex-direction: row;
+  display: flex;
+  list-style: none;
+  color: #6f757b;
+  margin-right: 16px;
+}
+
+.skills-svg-div {
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(59, 179, 189, 0.08);
+  margin-bottom: 8px;
+  flex-shrink: 0;
+}
+
+.skills-li:nth-child(n-3) {
+  margin-top: 24px;
+}
+
+.skills-title-p {
+  font-family: "Arial";
+  font-size: 18px;
+  line-height: 1.4285714;
+  font-weight: 400;
+  margin-bottom: 8px;
+  color: #384047;
+}
+
+.bottom-clock {
+  transform: scale(0.75);
+  font-size: 14px;
+}
+
+.skills-subtitle {
+  font-family: "Arial";
+  font-size: 16px;
+  line-height: 1.4285714;
+  text-align: center;
+  color: #6f757b;
+  font-weight: 300;
+}
+
+.skills-title {
+  padding: 0 24px;
+}
+
+.private-tutor-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  font-size: 14px;
+  color: #384047;
+  font-family: "Arial";
+  margin-bottom: 16px;
+}
+
+.private-tutor-link {
+  min-height: 48px;
+  padding: 12px 32px;
+  font-size: 16px;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  border: 0;
+  align-items: center;
+  line-height: 1;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 2px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 100%;
+  cursor: pointer;
+  outline: 0;
+  transition: background-color 50ms;
+  color: #fff;
+  background-color: #3bb3bd;
+  margin-bottom: 32px;
+}
