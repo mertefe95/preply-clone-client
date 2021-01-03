@@ -82,6 +82,48 @@ const LandingPage = () => (
         <p className="skills-p">Prepare to achieve your goals with private tutors</p>
       </div>
 
+      <ul className="skills-ul">
+        <li className="skills-li">
+          <div className="skills-svg-div">
+          <svg width="16" height="20" viewBox="0 0 16 20" xmlns="http://www.w3.org/2000/svg"><title>Shape</title><g id="Main-Page" fill="none" fill-rule="evenodd"><g id="01_1_Main_page_Web" transform="translate(-80 -2172)" fill-rule="nonzero" fill="#3BB3BD"><g id="Online-tutoring" transform="translate(32 1119)"><g transform="translate(32 1039)" id="Block"><g id="bookmark_icon"><g id="bookmark" transform="translate(16 14)"><path d="M8 15.229l-6.419 4.585A1 1 0 0 1 0 19V3a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v16a1 1 0 0 1-1.581.814L8 15.229zm6 1.828V3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v14.057l5.419-3.87a1 1 0 0 1 1.162 0L14 17.056z" id="Shape"></path></g></g></g></g></g></g></svg>
+          </div>
+          <div className="skills-title">
+            <p className="skills-title-p">Immerse yourself in a new culture</p>
+            <p className="skills-second-p">Connect with language experts from around the world</p>
+          </div>
+        </li>
+
+        <li className="skills-li">
+          <div className="skills-svg-div">
+            <svg width="20" height="22" viewBox="0 0 20 22" xmlns="http://www.w3.org/2000/svg"><title>Shape</title><g id="Main-Page" fill="none" fill-rule="evenodd"><g id="01_1_Main_page_Web" transform="translate(-670 -2171)" fill-rule="nonzero" fill="#3BB3BD"><g id="Online-tutoring" transform="translate(32 1119)"><g transform="translate(624 1039)" id="Block"><g id="zap_icon"><g id="zap" transform="translate(15 14)"><path d="M7.867 13H0a1 1 0 0 1-.768-1.64l10-12c.639-.767 1.884-.227 1.76.764L10.132 7H18a1 1 0 0 1 .768 1.64l-10 12c-.639.767-1.884.227-1.76-.764L7.868 13zm-5.732-2H9a1 1 0 0 1 .992 1.124l-.577 4.616L15.865 9H9a1 1 0 0 1-.992-1.124l.577-4.616L2.135 11z" id="Shape"></path></g></g></g></g></g></g></svg>
+          </div>
+          <div className="skills-title">
+            <p className="skills-title-p">Succeed in your career</p>
+            <p className="skills-second-p">Develop your working vocabulary and communicate clearly</p>
+          </div>
+        </li>
+
+        <li className="skills-li">
+          <div className="skills-svg-div">
+            <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg"><title>Combined Shape</title><g id="Main-Page" fill="none" fill-rule="evenodd"><g id="01_1_Main_page_Web" transform="translate(-77 -2291)" fill-rule="nonzero" fill="#3BB3BD"><g id="Online-tutoring" transform="translate(32 1119)"><g transform="translate(32 1159)" id="Block"><g id="clock_icon"><g id="clock" transform="translate(13 13)"><path d="M11 22C4.925 22 0 17.075 0 11S4.925 0 11 0s11 4.925 11 11-4.925 11-11 11zm0-2a9 9 0 1 0 0-18 9 9 0 0 0 0 18zm1-15v5.586l2.707 2.707a1 1 0 0 1-1.414 1.414l-3-3A1 1 0 0 1 10 11V5a1 1 0 0 1 2 0z" id="Combined-Shape"></path></g></g></g></g></g></g></svg>
+          </div>
+          <div className="skills-title">
+            <p className="skills-title-p">Get expert help when you need it</p>
+            <p className="skills-second-p">Learn to solve any problem in any language</p>
+          </div>
+        </li>
+
+        <li className="skills-li">
+          <div className="skills-svg-div">
+            <svg width="20" height="24" viewBox="0 0 20 24" xmlns="http://www.w3.org/2000/svg"><title>Oval</title><g id="Main-Page" fill="none" fill-rule="evenodd"><g id="01_1_Main_page_Web" transform="translate(-670 -2290)" fill-rule="nonzero" fill="#3BB3BD"><g id="Online-tutoring" transform="translate(32 1119)"><g transform="translate(624 1159)" id="Block"><g id="pin_icon"><g id="map-pin" transform="translate(14 12)"><path d="M15.226 19.813a31.132 31.132 0 0 1-4.254 3.726c-.195.141-.337.24-.417.293a1 1 0 0 1-1.11 0c-.08-.054-.222-.152-.417-.293a31.132 31.132 0 0 1-4.254-3.726C1.802 16.676 0 13.372 0 10 0 4.477 4.477 0 10 0s10 4.477 10 10c0 3.372-1.802 6.676-4.774 9.813zm-4.443 1.358a29.155 29.155 0 0 0 2.991-2.734C16.427 15.637 18 12.753 18 10a8 8 0 0 0-16 0c0 2.753 1.573 5.636 4.226 8.437A29.155 29.155 0 0 0 10 21.773c.242-.18.505-.38.783-.602zM10 14a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" id="Oval"></path></g></g></g></g></g></g></svg>
+          </div>
+          <div className="skills-title">
+            <p className="skills-title-p">Speak naturally, always</p>
+            <p className="skills-second-p">Make a good impression and build trust in any language</p>
+          </div>
+        </li>
+      </ul>
+
       </Paper>
       </div>
     </Container>
