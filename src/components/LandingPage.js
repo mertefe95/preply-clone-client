@@ -50,11 +50,38 @@ const LandingPage = () => (
               <p className="advantages-p">Verified profiles</p>
               <p className="advantages-second-p">We carefully check and confirm each tutor's profile</p>
             </div>
+          </li>
+       
 
+       <li className="advantages-li">
+         <div className="advantages-icon">
+          <svg width="23" height="23" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><title>Shape</title><g id="Page-1" fill="none" fill-rule="evenodd"><g id="1.5_TutorProfile-What_happens_next" transform="translate(-961 -310)" fill-rule="nonzero" fill="#FFF"><g id="Tooltip" transform="translate(948 149)"><g id="icon_contacts" transform="translate(12 160)"><path d="M8 1a6.99 6.99 0 0 0-7 7c0 3.873 3.127 7 7 7s7-3.127 7-7a7 7 0 0 0-7-7zm3.858 11.262a3.052 3.052 0 0 0-1.494-1.026l-.902-.265c-.31-.093-.466-.42-.373-.731.015-.062.062-.124.093-.171l.654-.731a2.25 2.25 0 0 0 .56-1.774l-.11-.886a2.281 2.281 0 0 0-1.026-1.65h-.016a2.287 2.287 0 0 0-2.504.032 2.225 2.225 0 0 0-.964 1.524l-.14.934a2.278 2.278 0 0 0 .544 1.866l.622.685a.37.37 0 0 1 .094.171.57.57 0 0 1-.374.731l-.902.265a3.052 3.052 0 0 0-1.493 1.026A5.734 5.734 0 0 1 2.244 8 5.762 5.762 0 0 1 8 2.244 5.762 5.762 0 0 1 13.756 8c0 1.68-.732 3.204-1.898 4.262z" id="Shape"></path></g></g></g></g></svg>
+         </div>
+         <div>
+           <p className="advantages-p">Learn anytime</p>
+           <p className="advantages-second-p">Take online lessons at the perfect time for your busy schedule</p>
+         </div>
+       </li>
 
-         </li>
-       </ul>
-    
+      <li className="advantages-li">
+        <div className="advantages-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Combined Shape</title><g id="Main-Page" fill="none" fill-rule="evenodd"><g id="01_1_Main_page_Web_Hovers" transform="translate(-1072 -1780)" fill="#3BB3BD"><g id="Online-tutoring" transform="translate(32 1119)"><g id="Columns" transform="translate(32 649)"><g id="4-column" transform="translate(888)"><g id="prices_icon" transform="translate(108)"><path d="M12 0c6.616 0 12 5.383 12 12s-5.384 12-12 12S0 18.618 0 12 5.384 0 12 0zm0 21.819c5.414 0 9.818-4.405 9.818-9.818 0-5.415-4.404-9.819-9.818-9.819-5.413 0-9.818 4.404-9.818 9.819 0 5.413 4.405 9.818 9.818 9.818zm0-17.455c4.21 0 7.636 3.426 7.636 7.637 0 4.21-3.426 7.636-7.636 7.636S4.364 16.21 4.364 12c0-4.211 3.425-7.637 7.636-7.637zm0 13.091a5.46 5.46 0 0 0 5.455-5.454A5.46 5.46 0 0 0 12 6.546a5.46 5.46 0 0 0-5.455 5.455A5.46 5.46 0 0 0 12 17.455zm0-8.727A3.276 3.276 0 0 1 15.273 12 3.277 3.277 0 0 1 12 15.273a3.277 3.277 0 0 1-3.273-3.272A3.276 3.276 0 0 1 12 8.728zm0 4.363c.601 0 1.09-.49 1.09-1.09a1.092 1.092 0 0 0-2.18 0c0 .6.489 1.09 1.09 1.09z" transform="translate(12 12)" id="Combined-Shape"></path></g></g></g></g></g></g></svg>
+        </div>
+        <div>
+          <p className="advantages-p">Affordable prices</p>
+          <p className="advantages-second-p">Choose an experienced tutor that fits your budget.</p>
+        </div>
+      </li>
+      </ul>
+
+      <div className="skills-icon-break">
+      <span class="skills-top-icon"><svg width="34" height="24" viewBox="0 0 34 24" xmlns="http://www.w3.org/2000/svg"><title>Shape</title><g id="Page-1" fill="none" fill-rule="evenodd"><g id="Artboard" transform="translate(-15 -20)" fill-rule="nonzero" fill="#3BB3BD"><g id="tutoring_icon"><g id="graduation_cap" transform="translate(15 20)"><path d="M17 .93l.498.265 14.344 7.438 1.826.93-1.826.93-4.217 2.157v5.412c0 .47-.216.893-.465 1.163-.249.27-.552.431-.863.597-.627.328-1.37.56-2.291.764-1.843.41-4.3.664-7.006.664-2.706 0-5.163-.253-7.006-.664-.921-.203-1.664-.436-2.29-.764-.312-.166-.615-.328-.864-.597a1.763 1.763 0 0 1-.465-1.163V12.65L4.25 11.555v7.869a2.106 2.106 0 0 1 1.063 1.826c0 1.175-.95 2.125-2.125 2.125a2.124 2.124 0 0 1-2.126-2.125c0-.784.428-1.457 1.063-1.826v-8.965L.332 9.563l1.826-.93 14.344-7.438L17 .93zm0 2.39L4.98 9.562l1.893.963c.24-.253.531-.44.83-.597.623-.328 1.37-.56 2.291-.764C11.833 8.754 14.281 8.5 17 8.5c2.719 0 5.167.253 7.006.664.921.203 1.668.436 2.29.764.3.157.59.344.831.597l1.893-.963L17 3.32zm0 7.305c-2.594 0-4.927.237-6.541.598-.805.178-1.453.386-1.793.564-.108.058-.124.1-.166.133v4.05c.444-.161.93-.306 1.494-.43 1.843-.412 4.3-.665 7.006-.665 2.706 0 5.163.253 7.006.664.564.125 1.05.27 1.494.432V11.92c-.042-.033-.058-.075-.166-.133-.34-.178-.988-.386-1.793-.564-1.614-.361-3.947-.598-6.541-.598zM17 17c-2.577 0-4.922.237-6.541.598a7.618 7.618 0 0 0-1.461.465c.365.157.789.315 1.461.464 1.619.361 3.964.598 6.541.598 2.577 0 4.922-.237 6.541-.598a7.618 7.618 0 0 0 1.461-.465 7.618 7.618 0 0 0-1.461-.464C21.922 17.237 19.577 17 17 17z" id="Shape"></path></g></g></g></g></svg></span>
+      </div>
+      <div className="skills-title">
+        <h2 className="skills-h2">Focus on the skills you need</h2>
+        <p className="skills-p">Prepare to achieve your goals with private tutors</p>
+      </div>
+
       </Paper>
       </div>
     </Container>
