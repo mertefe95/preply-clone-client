@@ -11,6 +11,7 @@ $button-color: rgb(80, 187, 196);
 $button-border-color: rgb(80, 187, 196);
 $button-hover-color: #63c3cb;
 $button-active-color: #35a1aa;
+$box-shadow-color: rgb(59, 179, 189.3);
 
 $theme-colors: (
   "preply-color": rgb(80, 187, 196),
@@ -437,4 +438,26 @@ $roboto: "Roboto";
   cursor: pointer;
   font-size: 14px;
   height: 50px;
+}
+
+.img-globe-div {
+  height: 100%;
+  width: 100%;
+}
+.img-globe {
+  height: 100%;
+  width: 100%;
+}
+
+.marker-globe {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(59, 179, 189, 0.7);
+  box-shadow: 0 0 0 4px $box-shadow-color;
 }
