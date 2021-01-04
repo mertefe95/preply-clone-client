@@ -46,8 +46,19 @@ $roboto: "Roboto";
 .header:hover .header-link {
   color: black;
 }
-.header:hover .header-li {
-  color: black;
+
+.fa-question-circle,
+.fa-sign-in-alt {
+  color: white;
+  font-size: 16px;
+  height: 15px;
+}
+
+.login {
+  padding-left: 5px;
+}
+.header:hover .fonticon {
+  color: #000;
 }
 
 .header:hover .red-fill {

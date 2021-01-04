@@ -22,11 +22,11 @@ export default function Header() {
     
       <div className="second-half-nav">
       <ul className="rightside-icons">
-      <li className="header-li"><Link className="header-link"><HelpOutlineIcon id="help-icon" className="header-link" /></Link></li>
+      <li className="header-li"><Link className="header-link"><i className="far fa-question-circle fonticon"></i> </Link></li>
       
       
-      <li className="header-li"><Link className="header-link" to="/login"><ExitToAppIcon id="exit-icon" className="header-link" />
-      <span>Log in</span></Link></li>
+      <li className="header-li"><Link className="header-link" to="/login"><i className="fas fa-sign-in-alt fonticon"></i>
+      <span className="login">Log in</span></Link></li>
       </ul>
       </div>
 
