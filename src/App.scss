@@ -39,12 +39,27 @@ $roboto: "Roboto";
 }
 
 .header:hover {
-  background-color: #fff;
+  background: #fff;
   color: black;
 }
 
-.navbar:hover {
+.header:hover .header-link {
   color: black;
+}
+.header:hover .header-li {
+  color: black;
+}
+
+.header:hover .red-fill {
+  fill: #f9463d;
+}
+
+.header:hover .text-fill {
+  fill: #000;
+}
+
+.header:hover .cyan-fill {
+  fill: #3bb3bd;
 }
 
 .navbar {
@@ -332,7 +347,7 @@ $roboto: "Roboto";
 }
 
 .header-link:hover {
-  color: white;
+  color: #81868c;
   text-decoration: none;
 }
 
@@ -341,7 +356,7 @@ $roboto: "Roboto";
   font-size: 14px;
 }
 
-.navbar:hover svg path {
+svg path {
   fill: #fff;
 }
 
@@ -564,6 +579,11 @@ $roboto: "Roboto";
   background: rgba(59, 179, 189, 0.08);
   margin-bottom: 8px;
   flex-shrink: 0;
+}
+
+.help-icon,
+.exit-icon {
+  color: black;
 }
 
 .skills-li:nth-child(n-3) {
