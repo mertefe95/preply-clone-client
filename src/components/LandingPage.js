@@ -20,6 +20,9 @@ const LandingPage = () => {
       textAlign: 'center',
       color: theme.palette.text.secondary,
     },
+    grid: {
+      marginLeft: "250px",
+    }
   }));
   
   const classes = useStyles();
@@ -53,7 +56,7 @@ const LandingPage = () => {
 
 
       <div id="grid-id" className={classes.root}>
-      <Grid container spacing={0}>
+      <Grid container className={classes.grid} spacing={0} xs={8}>
         <Grid item xs={4}>
           <Paper className={classes.paper}><Link className="grid-link-wrap"><div className="grid-icon-div"><i className="grid-icon"><svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg"><title>english_icon</title><g id="Page-1" fill="none" fill-rule="evenodd"><g id="english_icon" fill-rule="nonzero" fill="#3BB3BD"><path d="M13.784.004a.556.556 0 0 0-.385.28L10.144 5.71a.265.265 0 0 0-.035.035.56.56 0 0 0-.157.577v3.5L6.33 12.934l-.018.017a.531.531 0 0 0-.07.053l-.017.017a.261.261 0 0 0-.035.018v.017a.53.53 0 0 0-.07.07l-.018.018a.696.696 0 0 0-.035.07.56.56 0 0 0-.035.455v12.09c0 .309.252.56.56.56h.56V28h1.12v-1.68H19.47V28h1.12v-1.68h.56c.308 0 .56-.251.56-.56V13.67a.568.568 0 0 0-.018-.385.557.557 0 0 0-.087-.158v-.017a.265.265 0 0 0-.035-.035v-.018a.261.261 0 0 0-.035-.017l-.018-.018-.017-.017a.534.534 0 0 0-.088-.07L17.791 9.82V6.268a.632.632 0 0 0 0-.157v-.018a.55.55 0 0 0-.07-.192v-.017a.508.508 0 0 0-.088-.105l-.017-.018L14.344.284a.561.561 0 0 0-.56-.28zm.087 1.628l2.38 3.972h-4.76l2.38-3.972zm-2.8 5.091h5.6v2.8h-5.6v-2.8zm-.35 3.92h6.3l2.624 2.24H8.097l2.625-2.24zm-3.569 3.36H20.59V25.2H7.152V14.002zm6.72.56a4.711 4.711 0 0 0-4.708 4.706 4.711 4.711 0 0 0 4.707 4.707 4.711 4.711 0 0 0 4.707-4.707 4.711 4.711 0 0 0-4.707-4.707zm0 1.119a3.57 3.57 0 0 1 3.586 3.587 3.57 3.57 0 0 1-3.587 3.587 3.57 3.57 0 0 1-3.587-3.587 3.57 3.57 0 0 1 3.587-3.587zm.927.315a.654.654 0 0 0-.07.017.563.563 0 0 0-.438.385l-.945 2.677a.563.563 0 0 0 .14.595l1.627 1.558a.559.559 0 0 0 .976-.248.563.563 0 0 0-.206-.557L14.52 19.11l.84-2.344a.562.562 0 0 0-.56-.77z" id="Shape"></path></g></g></svg></i></div><div className="grid-div"><h4 className="grid-h">English language</h4><p className="grid-p">2597 tutors</p></div></Link></Paper>
         </Grid>
