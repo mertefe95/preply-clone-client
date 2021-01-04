@@ -887,6 +887,7 @@ body {
   font-size: 20px;
   line-height: 28.5667px;
   font-weight: 500;
+  font-family: "Arial";
 }
 
 .grid-p {
@@ -894,6 +895,9 @@ body {
   line-height: normal;
   font-weight: 400;
   color: #6f757b;
+  font-family: "Arial";
+  font-weight: 400;
+  line-height: normal;
 }
 
 .grid-link-wrap:hover {
@@ -906,7 +910,10 @@ body {
   height: 28px;
   margin-right: 16px;
   color: #3bb3bd;
-  background-color: #3bb3bd;
+}
+
+.grid-icon path {
+  fill: #3bb3bd;
 }
 
 .grid-icon-div {
