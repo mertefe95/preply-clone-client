@@ -5,7 +5,21 @@ import { Link } from "react-router-dom";
 
 const LandingPage = () => (
   <div>
-    
+      
+      <div className="main-img-div">
+        <img className="img-class" src="https://preply.com/static/ssr/_next/static/images/tutor-large-1-1c240a3731e85e892830d732fe7ff9d7.webp" />
+      </div>
+
+      <div className="language-main-wrapper">
+        <div className="language-second-wrapper">
+          <div className="languages">
+
+          </div>
+        </div>
+      </div>
+  
+
+
 
     <Container maxWidth="sm">
     
@@ -21,7 +35,7 @@ const LandingPage = () => (
         <Link></Link>
         <svg class="globe-marker-icon" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 92" preserveAspectRatio="none"><defs><linearGradient id="a" x1="640" x2="640" y1="1351" y2="1443" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6ddae0" stop-opacity=".6"></stop><stop offset="1" stop-color="#3bb3bd"></stop></linearGradient></defs><path fill="#3bb3bd" d="M35 92s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z"></path><path fill="url(#a)" d="M640 1443s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z" transform="translate(-605 -1351)"></path></svg>
         <div className="photo-globe">
-          <img src="https://avatars.preply.com/i/logos/i/logos/avatar_8jsfl8mgjmg.jpg" />
+         
         </div>
       </div>
     </div>
@@ -140,6 +154,54 @@ const LandingPage = () => (
 
       </Paper>
       </div>
+
+      <div>
+        <div className="wrap-div">
+          <div className="success-wrap-div">
+            <h2 className="success-story-h2">Read our success stories</h2>
+            <p className="skills-subtitle">Preply tutors have helped thousands of people prepare to speak confidently</p>
+          </div>
+        </div>
+
+        <Paper elevation={1}>
+            <div>
+              <div className="success-img">
+
+              </div>
+              <h4 className="success-card-title">PHILIP</h4>
+              <p className="success-card-text">Studying Russian language for 2 years</p>
+              <p className="success-card-subtext">"My tutors on Preply are very open, perfectly prepared and try to make it challenging for me but not too hard, and not too easy. Choosing online studies
+              was the best way to do it - the internet is fast, cheap and popular and it's easy to communicate in social media with native speakers.""
+              </p>
+            </div>
+        </Paper>
+
+
+      <div className="slider">
+        <div className="sliders">
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <input type="radio" name="radio-btn" id="radio4" />
+
+          <div className="slide first">
+            <img src="" alt="" />
+          </div>
+          <div className="slide">
+            <img src="" />
+          </div>  
+          <div className="slide">
+            <img src="" />
+          </div>
+          <div className="slide">
+            <img src="2.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+
     </Container>
   </div>
 );
