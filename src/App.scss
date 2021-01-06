@@ -43,16 +43,6 @@ $roboto: "Roboto";
   color: black;
 }
 
-.fa-question-circle,
-.fa-sign-in-alt {
-  color: white;
-  font-size: 16px;
-  height: 15px;
-}
-
-.login {
-  padding-left: 5px;
-}
 .header:hover .fonticon {
   color: #000;
 }
@@ -87,6 +77,14 @@ $roboto: "Roboto";
   transition: background 0.2s;
 }
 
+.leftside-links > li {
+  padding: 10px;
+}
+
+.login {
+  padding-left: 5px;
+}
+
 .rightside-icons {
   list-style: none;
   display: flex;
@@ -96,6 +94,13 @@ $roboto: "Roboto";
   padding: 10px;
 }
 
+.fa-question-circle,
+.fa-sign-in-alt {
+  color: white;
+  font-size: 16px;
+  height: 15px;
+}
+
 .leftside-links {
   list-style: none;
   display: flex;
@@ -103,10 +108,6 @@ $roboto: "Roboto";
 
 .preply-logo-div {
   margin-right: 50px;
-}
-
-.leftside-links > li {
-  padding: 10px;
 }
 
 .promo {
@@ -493,15 +494,21 @@ $roboto: "Roboto";
 }
 
 .globe-icon {
+  display: flex;
   width: 64px;
   height: 64px;
   background: #3bb3bd;
-  color: white;
   border-radius: 50%;
-
+  position: absolute;
+  left: 50%;
+  top: 0;
   transform: translate(-50%, -50%);
   align-items: center;
   justify-content: center;
+}
+
+.globe-icon path {
+  fill: #fff;
 }
 
 .globe-marker-icon {
@@ -1023,7 +1030,7 @@ main {
 
 @media screen and (max-width: 1200px) {
   .first-half-nav,
-  .second-half-nav {
+  #login-mark {
     visibility: hidden;
   }
 
@@ -1038,6 +1045,10 @@ main {
     .navbar {
       background: transparent;
     }
+
+    #question-link {
+      color: white !important;
+    }
   }
 }
 
@@ -1047,4 +1058,58 @@ main {
 
 .hamburger-div {
   visibility: hidden;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto 64px;
+  padding: 0 32px;
+}
+
+.wrapper-in {
+  position: relative;
+  background: #fff;
+  border-radius: 4px;
+  overflow: initial;
+  padding: 48px 0;
+}
+
+.globe-icon-title {
+  max-width: 632px;
+  margin: 0 auto;
+  padding: 0 32px;
+  text-align: center;
+}
+
+.globe-icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.big-logo-wrapper {
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin: 120px 0 0;
+  border-bottom: 1px solid #f2f2f2;
+  align-items: center;
+}
+
+.big-logo-inside-wrapper {
+  max-width: 852px;
+  position: relative;
+  width: 100%;
+}
+
+.wrapper-in {
+  max-width: 852px;
+  position: relative;
+  width: 100%;
+}
+
+.picture-globe {
+  display: relative;
+  width: 100%;
 }

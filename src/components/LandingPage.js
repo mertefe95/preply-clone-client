@@ -48,13 +48,13 @@ const LandingPage = () => {
         <div className="promo">
           <div className="promo-img">
           <picture>
-            <source srcset="https://static.preply.com/images/new/landing/tutor.ae942117d914.webp" media="(min-width: 480px)" type="image/webp" />
-            <source srcset="https://static.preply.com/images/new/landing/tutor.7ba2c65d444f.jpg" media="(min-width: 480px)" type="image/jpeg" />
-            <source srcset="https://static.preply.com/images/new/landing/tutor-med.bba15b20356e.webp" media="(min-width: 400px)" type="image/webp" />
-            <source srcset="https://static.preply.com/images/new/landing/tutor-med.e165062549d3.jpg" media="(min-width: 400px)" type="image/jpeg" />
-            <source srcset="https://static.preply.com/images/new/landing/tutor-small.7507021b82aa.webp" media="(min-width: 320px)" type="image/webp" /> 
-            <source srcset="https://static.preply.com/images/new/landing/tutor-small.d30f8bed62f1.jpg" media="(min-width: 320px)" type="image/jpeg" />
-            <img src="https://static.preply.com/images/new/landing/tutor.7ba2c65d444f.jpg" class="img-cover" alt="Learn anything faster" width="100%" />
+            <source srcSet="https://static.preply.com/images/new/landing/tutor.ae942117d914.webp" media="(min-width: 480px)" type="image/webp" />
+            <source srcSet="https://static.preply.com/images/new/landing/tutor.7ba2c65d444f.jpg" media="(min-width: 480px)" type="image/jpeg" />
+            <source srcSet="https://static.preply.com/images/new/landing/tutor-med.bba15b20356e.webp" media="(min-width: 400px)" type="image/webp" />
+            <source srcSet="https://static.preply.com/images/new/landing/tutor-med.e165062549d3.jpg" media="(min-width: 400px)" type="image/jpeg" />
+            <source srcSet="https://static.preply.com/images/new/landing/tutor-small.7507021b82aa.webp" media="(min-width: 320px)" type="image/webp" /> 
+            <source srcSet="https://static.preply.com/images/new/landing/tutor-small.d30f8bed62f1.jpg" media="(min-width: 320px)" type="image/jpeg" />
+            <img src="https://static.preply.com/images/new/landing/tutor.7ba2c65d444f.jpg" className="img-cover" alt="Learn anything faster" width="100%" />
         </picture>
 
         
@@ -119,8 +119,8 @@ const LandingPage = () => {
         </Grid>
         <Grid className="grid-item" item xs={12} lg={4}>
         <Paper className={classes.paper}>
-         <Link className="grid-link-wrap"><div className="grid-icon-div"><i class="grid-icon"><svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg"><title>arabic_icon</title><g id="Page-1" fill="none" fill-rule="evenodd"><g id="arabic_icon" fill-rule="nonzero" fill="#3BB3BD"><g id="icons8-mosque"><path d="M3.64 0c-.354 0-.435.175-.508.263-.072.087-.124.17-.175.262-.098.184-.192.41-.297.682-.21.55-.457 1.289-.683 2.083-.395 1.398-.759 2.947-.84 4.095A1.681 1.681 0 0 0 0 8.96c0 .724.472 1.34 1.12 1.575V27.44c0 .308.252.56.56.56h9.52c.308 0 .56-.252.56-.56v-2.065c0-.78.564-1.562 1.207-2.135.51-.455.845-.61 1.033-.717.188.107.523.262 1.033.717.643.573 1.207 1.354 1.207 2.135v2.065c0 .308.252.56.56.56h9.52c.308 0 .56-.252.56-.56V10.535A1.686 1.686 0 0 0 28 8.96c0-.735-.492-1.35-1.155-1.575-.079-1.157-.422-2.706-.822-4.112a24.855 24.855 0 0 0-.683-2.066 6.156 6.156 0 0 0-.297-.682 1.612 1.612 0 0 0-.175-.263C24.794.176 24.713 0 24.36 0s-.435.175-.508.263c-.072.087-.124.17-.175.262-.098.184-.192.41-.297.682-.21.55-.457 1.289-.682 2.083-.399 1.407-.762 2.947-.84 4.095A1.681 1.681 0 0 0 20.72 8.96c0 .724.473 1.34 1.12 1.575v5.705h-.578c-.168-2.914-1.647-4.664-3.184-5.775-.816-.59-1.645-1.024-2.31-1.4-.666-.376-1.147-.724-1.296-.963a.563.563 0 0 0-.524-.262h-.053a.565.565 0 0 0-.367.262c-.15.241-.63.587-1.296.963-.664.376-1.494.81-2.31 1.4-1.537 1.111-3.016 2.861-3.185 5.775H6.16v-5.705A1.686 1.686 0 0 0 7.28 8.96c0-.728-.481-1.345-1.138-1.575-.08-1.155-.444-2.717-.84-4.112a24.855 24.855 0 0 0-.682-2.066 6.156 6.156 0 0 0-.298-.682 1.612 1.612 0 0 0-.175-.263C4.075.176 3.994 0 3.64 0zm0 1.768c.182.487.376 1.113.578 1.82.365 1.284.671 2.723.77 3.692H2.291c.099-.965.405-2.408.77-3.693.202-.708.396-1.332.578-1.82zm20.72 0c.182.487.376 1.113.578 1.82.363 1.275.669 2.72.77 3.692h-2.695c.1-.967.406-2.415.77-3.693.2-.708.395-1.332.577-1.82zM1.593 8.4a.374.374 0 0 0 .07 0h.017c.315 0 .56.245.56.56a.54.54 0 0 1-.49.542h-.018a.422.422 0 0 0-.105 0H1.61a.54.54 0 0 1-.49-.542c0-.287.2-.52.472-.56zm1.662 0h.77a1.592 1.592 0 0 0-.105.56c0 .724.473 1.34 1.12 1.575v6.16a.422.422 0 0 0 0 .105v10.08h-2.8V10.535A1.686 1.686 0 0 0 3.36 8.96c0-.197-.04-.385-.105-.56zm2.293 0H5.6c.018 0 .035-.002.053 0 .29.026.507.262.507.56a.553.553 0 0 1-.508.56H5.6a.553.553 0 0 1-.56-.56c0-.298.217-.534.508-.56zm16.8 0h.087c.3.018.525.256.525.56a.539.539 0 0 1-.508.542.422.422 0 0 0-.105 0h-.017a.54.54 0 0 1-.49-.542c0-.298.217-.534.508-.56zm1.627 0h.77a1.652 1.652 0 0 0-.105.56c0 .724.473 1.34 1.12 1.575V26.88h-2.8V16.8v-6.265a1.686 1.686 0 0 0 1.12-1.575c0-.197-.042-.383-.105-.56zm2.345 0c.315 0 .56.245.56.56a.553.553 0 0 1-.508.56h-.052a.553.553 0 0 1-.56-.56c0-.315.245-.56.56-.56zM14 9.187c.348.316.742.593 1.207.858.694.394 1.49.8 2.223 1.33 1.367.989 2.56 2.328 2.712 4.865H7.858c.153-2.537 1.345-3.876 2.712-4.865.733-.53 1.512-.936 2.205-1.33A6.853 6.853 0 0 0 14 9.188zM6.16 17.36h15.68v9.52h-4.48v-1.505c0-1.286-.836-2.282-1.592-2.957a8.353 8.353 0 0 0-1.506-1.068.558.558 0 0 0-.524 0s-.749.392-1.505 1.067c-.757.676-1.593 1.672-1.593 2.958v1.505H6.16v-9.52z" id="Shape"></path></g></g></g></svg></i></div><div className="grid-div"><h4 className="grid-h">Arabic language</h4><p className="grid-p">439 tutors</p></div></Link>
-         </Paper>
+          <Link className="grid-link-wrap"><div className="grid-icon-div"><i class="grid-icon"><svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg"><title>arabic_icon</title><g id="Page-1" fill="none" fill-rule="evenodd"><g id="arabic_icon" fill-rule="nonzero" fill="#3BB3BD"><g id="icons8-mosque"><path d="M3.64 0c-.354 0-.435.175-.508.263-.072.087-.124.17-.175.262-.098.184-.192.41-.297.682-.21.55-.457 1.289-.683 2.083-.395 1.398-.759 2.947-.84 4.095A1.681 1.681 0 0 0 0 8.96c0 .724.472 1.34 1.12 1.575V27.44c0 .308.252.56.56.56h9.52c.308 0 .56-.252.56-.56v-2.065c0-.78.564-1.562 1.207-2.135.51-.455.845-.61 1.033-.717.188.107.523.262 1.033.717.643.573 1.207 1.354 1.207 2.135v2.065c0 .308.252.56.56.56h9.52c.308 0 .56-.252.56-.56V10.535A1.686 1.686 0 0 0 28 8.96c0-.735-.492-1.35-1.155-1.575-.079-1.157-.422-2.706-.822-4.112a24.855 24.855 0 0 0-.683-2.066 6.156 6.156 0 0 0-.297-.682 1.612 1.612 0 0 0-.175-.263C24.794.176 24.713 0 24.36 0s-.435.175-.508.263c-.072.087-.124.17-.175.262-.098.184-.192.41-.297.682-.21.55-.457 1.289-.682 2.083-.399 1.407-.762 2.947-.84 4.095A1.681 1.681 0 0 0 20.72 8.96c0 .724.473 1.34 1.12 1.575v5.705h-.578c-.168-2.914-1.647-4.664-3.184-5.775-.816-.59-1.645-1.024-2.31-1.4-.666-.376-1.147-.724-1.296-.963a.563.563 0 0 0-.524-.262h-.053a.565.565 0 0 0-.367.262c-.15.241-.63.587-1.296.963-.664.376-1.494.81-2.31 1.4-1.537 1.111-3.016 2.861-3.185 5.775H6.16v-5.705A1.686 1.686 0 0 0 7.28 8.96c0-.728-.481-1.345-1.138-1.575-.08-1.155-.444-2.717-.84-4.112a24.855 24.855 0 0 0-.682-2.066 6.156 6.156 0 0 0-.298-.682 1.612 1.612 0 0 0-.175-.263C4.075.176 3.994 0 3.64 0zm0 1.768c.182.487.376 1.113.578 1.82.365 1.284.671 2.723.77 3.692H2.291c.099-.965.405-2.408.77-3.693.202-.708.396-1.332.578-1.82zm20.72 0c.182.487.376 1.113.578 1.82.363 1.275.669 2.72.77 3.692h-2.695c.1-.967.406-2.415.77-3.693.2-.708.395-1.332.577-1.82zM1.593 8.4a.374.374 0 0 0 .07 0h.017c.315 0 .56.245.56.56a.54.54 0 0 1-.49.542h-.018a.422.422 0 0 0-.105 0H1.61a.54.54 0 0 1-.49-.542c0-.287.2-.52.472-.56zm1.662 0h.77a1.592 1.592 0 0 0-.105.56c0 .724.473 1.34 1.12 1.575v6.16a.422.422 0 0 0 0 .105v10.08h-2.8V10.535A1.686 1.686 0 0 0 3.36 8.96c0-.197-.04-.385-.105-.56zm2.293 0H5.6c.018 0 .035-.002.053 0 .29.026.507.262.507.56a.553.553 0 0 1-.508.56H5.6a.553.553 0 0 1-.56-.56c0-.298.217-.534.508-.56zm16.8 0h.087c.3.018.525.256.525.56a.539.539 0 0 1-.508.542.422.422 0 0 0-.105 0h-.017a.54.54 0 0 1-.49-.542c0-.298.217-.534.508-.56zm1.627 0h.77a1.652 1.652 0 0 0-.105.56c0 .724.473 1.34 1.12 1.575V26.88h-2.8V16.8v-6.265a1.686 1.686 0 0 0 1.12-1.575c0-.197-.042-.383-.105-.56zm2.345 0c.315 0 .56.245.56.56a.553.553 0 0 1-.508.56h-.052a.553.553 0 0 1-.56-.56c0-.315.245-.56.56-.56zM14 9.187c.348.316.742.593 1.207.858.694.394 1.49.8 2.223 1.33 1.367.989 2.56 2.328 2.712 4.865H7.858c.153-2.537 1.345-3.876 2.712-4.865.733-.53 1.512-.936 2.205-1.33A6.853 6.853 0 0 0 14 9.188zM6.16 17.36h15.68v9.52h-4.48v-1.505c0-1.286-.836-2.282-1.592-2.957a8.353 8.353 0 0 0-1.506-1.068.558.558 0 0 0-.524 0s-.749.392-1.505 1.067c-.757.676-1.593 1.672-1.593 2.958v1.505H6.16v-9.52z" id="Shape"></path></g></g></g></svg></i></div><div className="grid-div"><h4 className="grid-h">Arabic language</h4><p className="grid-p">439 tutors</p></div></Link>
+          </Paper>
         </Grid>
         <Grid className="grid-item" item xs={12} lg={4}>
         <Paper className={classes.paper}>
@@ -142,7 +142,6 @@ const LandingPage = () => {
     <Grid container className="grid-cont">
   
       <Paper id="paper" className={classes.paper2}> 
-
       <div className="toggler">
       <div className="toggler-in-div">
       <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Combined Shape</title><g id="Main-Page" fill="none" fill-rule="evenodd"><g id="01_1_Main_page_Web_Hovers" transform="translate(-64 -1015)" fill-rule="nonzero" fill="#63C3CB"><g id="Subjects" transform="translate(32 485)"><g id="More" transform="translate(32 530)"><path d="M12 24C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12zm0-1.3c5.91 0 10.7-4.79 10.7-10.7 0-5.91-4.79-10.7-10.7-10.7C6.09 1.3 1.3 6.09 1.3 12c0 5.91 4.79 10.7 10.7 10.7zm.517-6.93a.698.698 0 0 1-1.031 0L7.2 11.27a.767.767 0 0 1-.2-.52c0-.414.32-.75.714-.75.193 0 .367.08.496.21l3.792 3.981 3.742-3.93a.699.699 0 0 1 .542-.261c.394 0 .714.336.714.75a.783.783 0 0 1-.197.52l-4.286 4.5z" id="Combined-Shape"></path></g></g></g></g></svg>
@@ -181,33 +180,38 @@ const LandingPage = () => {
 
 
 
-    <Container maxWidth="sm">
+    <div className="wrapper">
     
-    <div className="below-img-div">
-    <Paper elevation={1}>
-    <i className="globe-icon"><svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><title>uEA46-world</title><g id="Page-1" fill="none" fill-rule="evenodd"><g id="uEA46-world" transform="translate(-1 -1)" fill-rule="nonzero" fill="#B34646"><path id="svg-path" d="M17 1c8.822 0 16 7.178 16 16 0 8.823-7.178 16.001-16 16.001-8.823 0-16-7.178-16-16.001C1 8.178 8.177 1 17 1zm3.293 28.656c5.171-1.348 9.108-5.773 9.712-11.201h-5.83a23.716 23.716 0 0 1-3.882 11.201zM3.995 18.455c.602 5.428 4.54 9.853 9.71 11.201A23.677 23.677 0 0 1 9.82 18.455H3.995zm9.712-14.11c-5.171 1.349-9.108 5.774-9.712 11.2h5.83a23.71 23.71 0 0 1 3.882-11.2zm-.98 11.2h8.548A20.756 20.756 0 0 0 17 4.711a20.785 20.785 0 0 0-4.273 10.834zm-.003 2.91A20.758 20.758 0 0 0 17 29.29a20.785 20.785 0 0 0 4.273-10.836h-8.55zm17.281-2.91c-.604-5.426-4.541-9.851-9.712-11.2a23.662 23.662 0 0 1 3.885 11.2h5.827z" id="Shape"></path></g></g></svg></i>
-    <h2 className="globe-upper-header">Make the world your comfort zone</h2>
-    <p className="globe-upper-p">Speak naturally with professional online tutors from 185 countries</p>
+    <div className="wrapper-in">
+    
+    <i class="globe-icon"><svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><title>uEA46-world</title><g id="Page-1" fill="none" fill-rule="evenodd"><g id="uEA46-world" transform="translate(-1 -1)" fill-rule="nonzero" fill="#B34646"><path d="M17 1c8.822 0 16 7.178 16 16 0 8.823-7.178 16.001-16 16.001-8.823 0-16-7.178-16-16.001C1 8.178 8.177 1 17 1zm3.293 28.656c5.171-1.348 9.108-5.773 9.712-11.201h-5.83a23.716 23.716 0 0 1-3.882 11.201zM3.995 18.455c.602 5.428 4.54 9.853 9.71 11.201A23.677 23.677 0 0 1 9.82 18.455H3.995zm9.712-14.11c-5.171 1.349-9.108 5.774-9.712 11.2h5.83a23.71 23.71 0 0 1 3.882-11.2zm-.98 11.2h8.548A20.756 20.756 0 0 0 17 4.711a20.785 20.785 0 0 0-4.273 10.834zm-.003 2.91A20.758 20.758 0 0 0 17 29.29a20.785 20.785 0 0 0 4.273-10.836h-8.55zm17.281-2.91c-.604-5.426-4.541-9.851-9.712-11.2a23.662 23.662 0 0 1 3.885 11.2h5.827z" id="Shape"></path></g></g></svg></i>
+    <div className="globe-icon-title">
+      <h2 className="globe-upper-header">Make the world your comfort zone</h2>
+      <p className="globe-upper-p">Speak naturally with professional online tutors from 185 countries</p>
+    </div>
+    <div className="big-logo-wrapper">
+      <div className="big-logo-inside-wrapper">
+      <picture className="picture-globe"><source srcSet="https://preply.com/static/ssr/_next/static/images/web-mob-1-8b6e9cfa202f781bf0495b754a58a7f3.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/web-mob-05bc3d16799f18768729c5edb4901151.png" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/web-1-696eb7124ea1cb3847ee998891e564aa.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/web-d3a78331bcbbb8624d61a69fc5b200e7.png" alt="web" className="picture-globe" /></picture>
+      </div>
+    </div>
     
 
     <div className="marker-globe">
       <div className="tip-wrap-marker">
         <Link></Link>
-        <svg class="globe-marker-icon" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 92" preserveAspectRatio="none"><defs><linearGradient id="a" x1="640" x2="640" y1="1351" y2="1443" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6ddae0" stop-opacity=".6"></stop><stop offset="1" stop-color="#3bb3bd"></stop></linearGradient></defs><path fill="#3bb3bd" d="M35 92s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z"></path><path fill="url(#a)" d="M640 1443s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z" transform="translate(-605 -1351)"></path></svg>
+        <svg className="globe-marker-icon" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 92" preserveAspectRatio="none"><defs><linearGradient id="a" x1="640" x2="640" y1="1351" y2="1443" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6ddae0" stop-opacity=".6"></stop><stop offset="1" stop-color="#3bb3bd"></stop></linearGradient></defs><path fill="#3bb3bd" d="M35 92s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z"></path><path fill="url(#a)" d="M640 1443s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z" transform="translate(-605 -1351)"></path></svg>
         <div className="photo-globe">
-         
+    
         </div>
       </div>
     </div>
 
     
 
-      <div className="img-globe-div">
-      <img className="img-globe" src="https://preply.com/static/ssr/_next/static/images/web-mob-05bc3d16799f18768729c5edb4901151.png"  />
-      </div>
+    
 
-       <ul className="advantages-ul">
-         <li className="advantages-li">
+        <ul className="advantages-ul">
+          <li className="advantages-li">
           <div className="advantages-icon">
             <svg width="16" height="24" viewBox="0 0 16 24" xmlns="http://www.w3.org/2000/svg"><title>certified_icon</title><g id="Main-Page" fill="none" fill-rule="evenodd"><g id="01_1_Main_page_Web" transform="translate(-188 -1780)" fill="#3BB3BD"><g id="Online-tutoring" transform="translate(32 1119)"><g id="Columns" transform="translate(32 649)"><g id="1-column"><path d="M16 8c0 2.583-1.236 4.877-3.141 6.341l1.132 8.528a.998.998 0 0 1-1.506.99L8 21.166l-4.486 2.691a1 1 0 0 1-1.506-.989l1.133-8.527A7.983 7.983 0 0 1 0 8c0-4.41 3.589-8 8-8s8 3.59 8 8zm-4.264 13.076l-.751-5.659A7.954 7.954 0 0 1 8 16.001a7.96 7.96 0 0 1-2.984-.583l-.752 5.658 3.221-1.933a1.005 1.005 0 0 1 1.029 0l3.222 1.933zM2 8a6.007 6.007 0 0 0 6 6.001c3.308 0 6-2.692 6-6 0-3.309-2.692-6-6-6-3.309 0-6 2.691-6 6zm6 3a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" transform="translate(124 12)" id="certified_icon"></path></g></g></g></g></g></svg>
           </div>
@@ -312,7 +316,6 @@ const LandingPage = () => {
         <Link className="private-tutor-link">Post Request</Link>
       </div>
 
-      </Paper>
       </div>
 
       <div>
@@ -362,7 +365,7 @@ const LandingPage = () => {
       </div>
 
 
-    </Container>
+    </div>
     </div>
     </main>
   </div>
