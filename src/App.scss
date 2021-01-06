@@ -28,17 +28,13 @@ $roboto: "Roboto";
 }
 
 .header {
+  width: 100%;
+  position: relative;
   background: transparent
     linear-gradient(to bottom, rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0));
-  color: black;
-  position: absolute;
-  z-index: 4;
-  background-color: transparent;
-  width: 100%;
-  transition: background 0.2s;
 }
 
-.header:hover {
+.header:hover .navbar {
   background: #fff;
   color: black;
 }
@@ -78,11 +74,17 @@ $roboto: "Roboto";
   font-size: 14px;
   display: flex;
   justify-content: space-evenly;
-  z-index: 8;
+  z-index: 4;
   white-space: nowrap;
   color: black;
   transition: box-shadow 0.3s ease-in-out;
   cursor: pointer;
+  position: absolute;
+
+  padding: 0 32px;
+  left: 0;
+  right: 0;
+  transition: background 0.2s;
 }
 
 .rightside-icons {
@@ -99,7 +101,7 @@ $roboto: "Roboto";
   display: flex;
 }
 
-.header-svg-li {
+.preply-logo-div {
   margin-right: 50px;
 }
 
@@ -107,10 +109,29 @@ $roboto: "Roboto";
   padding: 10px;
 }
 
-.img {
-  padding-bottom: 40px;
-  height: 100%;
+.promo {
+  position: relative;
+  margin-bottom: -131px;
   width: 100%;
+  height: 43vh;
+  min-height: 564px;
+}
+
+.promo-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.promo-img::after {
+  content: "";
+  position: absolute;
+  top: 28%;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 #google-login {
@@ -371,12 +392,12 @@ $roboto: "Roboto";
   font-size: 14px;
 }
 
-svg path {
-  fill: #fff;
-}
-
 .preply-svg {
   height: 25px;
+}
+
+.preply-svg path {
+  fill: #fff;
 }
 
 .form-input:focus {
@@ -786,16 +807,6 @@ svg path {
   background: linear-gradient(rgba (0, 0, 0, 0.4));
 }
 
-.main-img-div {
-  width: 100%;
-  display: flex;
-  position: relative;
-  align-items: center;
-  height: 43vh;
-  min-height: 564px;
-  margin-bottom: -64px;
-}
-
 .img-class {
   height: 100%;
   width: 100%;
@@ -809,6 +820,7 @@ svg path {
   color: white;
   z-index: 10;
   position: relative;
+  top: 50%;
   left: 20%;
   font-family: "Arial";
 }
@@ -849,11 +861,6 @@ svg path {
   font-weight: 400;
   font-family: "Arial";
   border: none;
-}
-
-#grid-id {
-  position: relative;
-  z-index: 9;
 }
 
 .grid-div {
@@ -938,10 +945,7 @@ svg path {
 
 main {
   background-color: #edeff0;
-}
-
-.main-wrapper {
-  margin: 0 100px;
+  margin-top: 200px;
 }
 
 .languages-icon {
@@ -996,11 +1000,51 @@ main {
   margin-bottom: 300px;
 }
 
-.paper {
+#paper {
   margin-left: 30px;
   margin-bottom: 50px;
 }
 
 .grid-item {
   width: 100%;
+}
+
+#grid-containerz {
+  z-index: 10;
+  position: relative;
+  left: 12%;
+}
+
+@media screen and (max-width: 1280px) {
+  #grid-containerz {
+    left: 0%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .first-half-nav,
+  .second-half-nav {
+    visibility: hidden;
+  }
+
+  .hamburger-div {
+    visibility: visible !important;
+  }
+
+  .header:hover {
+    .preply-logo-div svg path {
+      fill: white;
+    }
+    .navbar {
+      background: transparent;
+    }
+  }
+}
+
+.hamburger-div:hover svg path {
+  fill: white;
+}
+
+.hamburger-div {
+  visibility: hidden;
 }
