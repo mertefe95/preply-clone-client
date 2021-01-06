@@ -910,6 +910,10 @@ svg path {
   border-top: 1px solid #f2f2f2;
   position: relative;
   font-family: "Arial";
+  padding-left: 20px;
+  background-color: white;
+  width: 65.7%;
+  margin-left: 30px;
 }
 
 .toggler-in-div {
@@ -920,6 +924,7 @@ svg path {
   padding: 16px 32px;
   cursor: pointer;
   color: #3bb3bd;
+  transform: rotate(180deg);
 }
 
 .rotated-icon {
@@ -977,13 +982,25 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 0 0px;
 }
 
 .languages-grid-div > div {
   padding: 30px 100px;
 }
 
+.grid-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 300px;
+}
+
 .paper {
-  margin-left: 300px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.grid-item {
+  width: 100%;
 }
