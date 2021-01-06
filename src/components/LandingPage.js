@@ -192,6 +192,246 @@ const LandingPage = () => {
     <div className="big-logo-wrapper">
       <div className="big-logo-inside-wrapper">
       <picture className="picture-globe"><source srcSet="https://preply.com/static/ssr/_next/static/images/web-mob-1-8b6e9cfa202f781bf0495b754a58a7f3.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/web-mob-05bc3d16799f18768729c5edb4901151.png" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/web-1-696eb7124ea1cb3847ee998891e564aa.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/web-d3a78331bcbbb8624d61a69fc5b200e7.png" alt="web" className="picture-globe" /></picture>
+      <div className="marker">
+        <div className="marker-tip">
+          <Link className="marker-link">
+            <div className="marker-title">
+              <div>
+                <span className="marker-name">Iryna H.</span>
+                <img src="https://static.preply.com/images/new/flags-svg/4x3/ua.svg" alt="Iryna H." className="marker-flag" />
+              </div>
+              <div>
+              <svg height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg" className="marker-title-img"><path d="M23.97 8.721a.597.597 0 0 0-.507-.413l-7.744-.822-3.172-7.16c-.192-.435-.903-.435-1.095 0l-3.17 7.16-7.745.822a.601.601 0 0 0-.508.413.606.606 0 0 0 .17.635l5.785 5.248-1.616 7.667a.605.605 0 0 0 .586.729.595.595 0 0 0 .3-.081L12 19.003l6.747 3.916c.204.119.46.105.652-.035a.606.606 0 0 0 .234-.613l-1.616-7.668 5.786-5.248a.606.606 0 0 0 .168-.634z"></path></svg>
+                4.9
+              </div>
+              <p>
+                Certified TEFL & TESOL tutor with 6 years of experience, Russian and Ukranian tutor
+              </p>
+            </div>
+          </Link>
+          
+            <svg className="marker-svg" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 92" preserveAspectRatio="none"><defs><linearGradient id="a" x1="640" x2="640" y1="1351" y2="1443" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6ddae0" stop-opacity=".6"></stop><stop offset="1" stop-color="#3bb3bd"></stop></linearGradient></defs><path fill="#3bb3bd" d="M35 92s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z"></path><path fill="url(#a)" d="M640 1443s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z" transform="translate(-605 -1351)"></path></svg>
+            <div className="marker-photo">
+              <img src="https://avatars.preply.com/i/logos/i/logos/avatar_8jsfl8mgjmg.jpg" alt="Iryna H." className="marker-img" width="50" height="50" />
+            </div>
+            
+        </div>
+      </div>
+      <div className="marker">
+        <div className="marker-tip">
+          <Link className="marker-link">
+          <div className="marker-title">
+              <div>
+                <span className="marker-name">Евгений М.</span>
+                <img src="https://static.preply.com/images/new/flags-svg/4x3/ua.svg" alt="Евгений М." className="marker-flag" />
+              </div>
+              <div>
+              <svg height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg" className="marker-title-img"><path d="M23.97 8.721a.597.597 0 0 0-.507-.413l-7.744-.822-3.172-7.16c-.192-.435-.903-.435-1.095 0l-3.17 7.16-7.745.822a.601.601 0 0 0-.508.413.606.606 0 0 0 .17.635l5.785 5.248-1.616 7.667a.605.605 0 0 0 .586.729.595.595 0 0 0 .3-.081L12 19.003l6.747 3.916c.204.119.46.105.652-.035a.606.606 0 0 0 .234-.613l-1.616-7.668 5.786-5.248a.606.606 0 0 0 .168-.634z"></path></svg>
+                4.7
+              </div>
+              <p>
+                  Нестандартный подход. Non-conventional English teaching
+              </p>
+            </div>
+          </Link>
+            <svg className="marker-svg" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 92" preserveAspectRatio="none"><defs><linearGradient id="a" x1="640" x2="640" y1="1351" y2="1443" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6ddae0" stop-opacity=".6"></stop><stop offset="1" stop-color="#3bb3bd"></stop></linearGradient></defs><path fill="#3bb3bd" d="M35 92s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z"></path><path fill="url(#a)" d="M640 1443s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z" transform="translate(-605 -1351)"></path></svg>
+            <div className="marker-photo">
+              <img src="https://avatars.preply.com/i/logos/1524.e9858cda9a.JPG" alt="Евгений М." className="marker-img" width="50" height="50" />
+            </div>
+          
+        </div>
+      </div>
+      <div className="marker">
+        <div className="marker-tip">
+          <Link  className="marker-link">
+          <div className="marker-title">
+              <div>
+                <span className="marker-name">Andreea T.</span>
+                <img src="https://static.preply.com/images/new/flags-svg/4x3/ro.svg" alt="Andreea T." class="marker-flag" />
+              </div>
+              <div>
+              <svg height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg" className="marker-title-img"><path d="M23.97 8.721a.597.597 0 0 0-.507-.413l-7.744-.822-3.172-7.16c-.192-.435-.903-.435-1.095 0l-3.17 7.16-7.745.822a.601.601 0 0 0-.508.413.606.606 0 0 0 .17.635l5.785 5.248-1.616 7.667a.605.605 0 0 0 .586.729.595.595 0 0 0 .3-.081L12 19.003l6.747 3.916c.204.119.46.105.652-.035a.606.606 0 0 0 .234-.613l-1.616-7.668 5.786-5.248a.606.606 0 0 0 .168-.634z"></path></svg>
+                4.9
+              </div>
+              <p>
+                Certified TEFL & TESOL tutor with 6 years of experience, Russian and Ukranian tutor
+              </p>
+            </div>
+          </Link>
+            <svg className="marker-svg" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 92" preserveAspectRatio="none"><defs><linearGradient id="a" x1="640" x2="640" y1="1351" y2="1443" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6ddae0" stop-opacity=".6"></stop><stop offset="1" stop-color="#3bb3bd"></stop></linearGradient></defs><path fill="#3bb3bd" d="M35 92s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z"></path><path fill="url(#a)" d="M640 1443s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z" transform="translate(-605 -1351)"></path></svg>
+            <div className="marker-photo">
+              <img src="https://avatars.preply.com/i/logos/35139.396d7ac00b.jpg" alt="Andreea T." className="marker-img" width="50" height="50" />
+            </div>
+          
+        </div>
+      </div>
+      <div className="marker">
+        <div className="marker-tip">
+          <Link className="marker-link">
+          <div className="marker-title">
+              <div>
+                <span className="marker-name">Manuela S.</span>
+                <img src="https://static.preply.com/images/new/flags-svg/4x3/it.svg" alt="Manuela S." class="marker-flag" />
+              </div>
+              <div>
+              <svg height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg" className="marker-title-img"><path d="M23.97 8.721a.597.597 0 0 0-.507-.413l-7.744-.822-3.172-7.16c-.192-.435-.903-.435-1.095 0l-3.17 7.16-7.745.822a.601.601 0 0 0-.508.413.606.606 0 0 0 .17.635l5.785 5.248-1.616 7.667a.605.605 0 0 0 .586.729.595.595 0 0 0 .3-.081L12 19.003l6.747 3.916c.204.119.46.105.652-.035a.606.606 0 0 0 .234-.613l-1.616-7.668 5.786-5.248a.606.606 0 0 0 .168-.634z"></path></svg>
+                4.8
+              </div>
+              <p>
+                Native Speaker with Humanites, Administrative and Law Background
+              </p>
+            </div>
+          </Link>
+          <svg className="marker-svg" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 92" preserveAspectRatio="none"><defs><linearGradient id="a" x1="640" x2="640" y1="1351" y2="1443" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6ddae0" stop-opacity=".6"></stop><stop offset="1" stop-color="#3bb3bd"></stop></linearGradient></defs><path fill="#3bb3bd" d="M35 92s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z"></path><path fill="url(#a)" d="M640 1443s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z" transform="translate(-605 -1351)"></path></svg>
+          <div className="marker-photo">
+            <img src="https://avatars.preply.com/i/logos/i/logos/36642.add1cb7b14.jpg" alt="Manuela S." className="marker-img" width="50" height="50" />
+          </div>
+          
+        </div>
+      </div>
+      <div className="marker">
+      <div className="marker-tip">
+        <Link className="marker-link">
+        <div className="marker-title">
+              <div>
+                <span className="marker-name">Kirill S.</span>
+                <img src="https://static.preply.com/images/new/flags-svg/4x3/us.svg" alt="Kirill S." className="marker-flag" />
+              </div>
+              <div>
+              <svg height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg" className="marker-title-img"><path d="M23.97 8.721a.597.597 0 0 0-.507-.413l-7.744-.822-3.172-7.16c-.192-.435-.903-.435-1.095 0l-3.17 7.16-7.745.822a.601.601 0 0 0-.508.413.606.606 0 0 0 .17.635l5.785 5.248-1.616 7.667a.605.605 0 0 0 .586.729.595.595 0 0 0 .3-.081L12 19.003l6.747 3.916c.204.119.46.105.652-.035a.606.606 0 0 0 .234-.613l-1.616-7.668 5.786-5.248a.606.606 0 0 0 .168-.634z"></path></svg>
+                4.9
+              </div>
+              <p>
+                HIGHLY SKILLED TUTOR who will take your SPEAKING and BUSINESS ENGLISH to the next level!
+              </p>
+            </div>
+        </Link>
+          <svg className="marker-svg" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 92" preserveAspectRatio="none"><defs><linearGradient id="a" x1="640" x2="640" y1="1351" y2="1443" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6ddae0" stop-opacity=".6"></stop><stop offset="1" stop-color="#3bb3bd"></stop></linearGradient></defs><path fill="#3bb3bd" d="M35 92s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z"></path><path fill="url(#a)" d="M640 1443s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z" transform="translate(-605 -1351)"></path></svg>
+        <div className="marker-photo">
+          <img src="https://avatars.preply.com/i/logos/i/logos/53231.0621505e8a.JPG" alt="Kirill S." className="marker-img" width="50" height="50" />
+        </div>
+        
+      </div>
+      </div>
+      <div className="marker">
+        <div className="marker-tip">
+          <Link className="marker-link">  
+          <div className="marker-title">
+              <div>
+                <span className="marker-name">Luis A.</span>
+                <img src="https://static.preply.com/images/new/flags/ve-simplified.svg" alt="Luis A." className="marker-flag" />
+              </div>
+              <div>
+              <svg height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg" className="marker-title-img"><path d="M23.97 8.721a.597.597 0 0 0-.507-.413l-7.744-.822-3.172-7.16c-.192-.435-.903-.435-1.095 0l-3.17 7.16-7.745.822a.601.601 0 0 0-.508.413.606.606 0 0 0 .17.635l5.785 5.248-1.616 7.667a.605.605 0 0 0 .586.729.595.595 0 0 0 .3-.081L12 19.003l6.747 3.916c.204.119.46.105.652-.035a.606.606 0 0 0 .234-.613l-1.616-7.668 5.786-5.248a.606.606 0 0 0 .168-.634z"></path></svg>
+                4.8
+              </div>
+              <p>
+                60+ Reviews & 10 years of Experience. LET'S GO!
+              </p>
+            </div>
+          </Link>
+          <svg className="marker-svg" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 92" preserveAspectRatio="none"><defs><linearGradient id="a" x1="640" x2="640" y1="1351" y2="1443" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6ddae0" stop-opacity=".6"></stop><stop offset="1" stop-color="#3bb3bd"></stop></linearGradient></defs><path fill="#3bb3bd" d="M35 92s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z"></path><path fill="url(#a)" d="M640 1443s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z" transform="translate(-605 -1351)"></path></svg>
+          <div className="marker-photo">  
+            <img src="https://avatars.preply.com/i/logos/63935.5f70265285.jpeg" alt="Luis A." className="marker-img" width="50" height="50" />
+          </div>
+          
+        </div>
+      </div>
+      <div className="marker">
+        <div className="marker-tip">
+          <Link className="marker-link">
+          <div className="marker-title">
+              <div>
+                <span className="marker-name">Bob T.</span>
+                <img src="https://static.preply.com/images/new/flags-svg/4x3/us.svg" alt="Bob T." className="marker-flag" />
+              </div>
+              <div>
+              <svg height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg" className="marker-title-img"><path d="M23.97 8.721a.597.597 0 0 0-.507-.413l-7.744-.822-3.172-7.16c-.192-.435-.903-.435-1.095 0l-3.17 7.16-7.745.822a.601.601 0 0 0-.508.413.606.606 0 0 0 .17.635l5.785 5.248-1.616 7.667a.605.605 0 0 0 .586.729.595.595 0 0 0 .3-.081L12 19.003l6.747 3.916c.204.119.46.105.652-.035a.606.606 0 0 0 .234-.613l-1.616-7.668 5.786-5.248a.606.606 0 0 0 .168-.634z"></path></svg>
+                4.8
+              </div>
+              <p>
+                Experienced English Teacher/Tutor and Published Author from the U.S.
+              </p>
+            </div> 
+          </Link>
+          <svg className="marker-svg" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 92" preserveAspectRatio="none"><defs><linearGradient id="a" x1="640" x2="640" y1="1351" y2="1443" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6ddae0" stop-opacity=".6"></stop><stop offset="1" stop-color="#3bb3bd"></stop></linearGradient></defs><path fill="#3bb3bd" d="M35 92s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z"></path><path fill="url(#a)" d="M640 1443s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z" transform="translate(-605 -1351)"></path></svg>
+          <div className="marker-photo">  
+            <img src="https://avatars.preply.com/i/logos/88256.6dd4d73baa.JPG" alt="Bob T." className="marker-img" width="50" height="50" />
+          </div>
+          
+        </div>
+      </div>
+      <div className="marker">
+        <div className="marker-tip">
+          <Link className="marker-link">
+          <div className="marker-title">
+              <div>
+                <span className="marker-name">Vitor C.</span>
+                <img src="https://static.preply.com/images/new/flags-svg/4x3/br.svg" alt="Vitor C." class="marker-flag" />
+              </div>
+              <div>
+              <svg height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg" className="marker-title-img"><path d="M23.97 8.721a.597.597 0 0 0-.507-.413l-7.744-.822-3.172-7.16c-.192-.435-.903-.435-1.095 0l-3.17 7.16-7.745.822a.601.601 0 0 0-.508.413.606.606 0 0 0 .17.635l5.785 5.248-1.616 7.667a.605.605 0 0 0 .586.729.595.595 0 0 0 .3-.081L12 19.003l6.747 3.916c.204.119.46.105.652-.035a.606.606 0 0 0 .234-.613l-1.616-7.668 5.786-5.248a.606.606 0 0 0 .168-.634z"></path></svg>
+                4.9
+              </div>
+              <p>
+                Certified English Teacher by TESL Canada (Teaching English and Portuguese as a Second Language)
+              </p>
+            </div>  
+          </Link>
+          <svg className="marker-svg" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 92" preserveAspectRatio="none"><defs><linearGradient id="a" x1="640" x2="640" y1="1351" y2="1443" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6ddae0" stop-opacity=".6"></stop><stop offset="1" stop-color="#3bb3bd"></stop></linearGradient></defs><path fill="#3bb3bd" d="M35 92s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z"></path><path fill="url(#a)" d="M640 1443s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z" transform="translate(-605 -1351)"></path></svg>
+          <div className="marker-photo">  
+            <img src="https://avatars.preply.com/i/logos/i/logos/avatar_x8rrfzpezxk.jpg" alt="Vitor C." className="marker-img" width="50" height="50" />
+          </div>
+          
+        </div>
+      </div>
+      <div className="marker">
+        <div className="marker-tip">
+        <Link className="marker-link">
+        <div className="marker-title">
+              <div>
+                <span className="marker-name">Filip R.</span>
+                <img src="https://static.preply.com/images/new/flags-svg/4x3/rs.svg" alt="Filip R." class="marker-title-img" />
+              </div>
+              <div>
+              <svg height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg" className="marker-image"><path d="M23.97 8.721a.597.597 0 0 0-.507-.413l-7.744-.822-3.172-7.16c-.192-.435-.903-.435-1.095 0l-3.17 7.16-7.745.822a.601.601 0 0 0-.508.413.606.606 0 0 0 .17.635l5.785 5.248-1.616 7.667a.605.605 0 0 0 .586.729.595.595 0 0 0 .3-.081L12 19.003l6.747 3.916c.204.119.46.105.652-.035a.606.606 0 0 0 .234-.613l-1.616-7.668 5.786-5.248a.606.606 0 0 0 .168-.634z"></path></svg>
+                4.9
+              </div>
+              <p>
+                English Language Tutor
+              </p>
+            </div>
+        </Link>
+        <svg className="marker-svg" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 92" preserveAspectRatio="none"><defs><linearGradient id="a" x1="640" x2="640" y1="1351" y2="1443" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6ddae0" stop-opacity=".6"></stop><stop offset="1" stop-color="#3bb3bd"></stop></linearGradient></defs><path fill="#3bb3bd" d="M35 92s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z"></path><path fill="url(#a)" d="M640 1443s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z" transform="translate(-605 -1351)"></path></svg>
+        <div className="marker-photo">
+          <img src="https://avatars.preply.com/i/logos/i/logos/109424.cbd118ddad.jpg" alt="Filip R." className="marker-img" width="50" height="50" />
+        </div>
+        </div>
+      </div>
+      <div className="marker">
+        <div className="marker-tip">
+        <Link className="marker-link">
+        <div className="marker-title">
+              <div>
+                <span className="marker-name">Lydia G.</span>
+                <img src="https://static.preply.com/images/new/flags-svg/4x3/za.svg" alt="Lydia G." className="marker-flag" />
+              </div>
+              <div>
+              <svg height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg" className="marker-title-img"><path d="M23.97 8.721a.597.597 0 0 0-.507-.413l-7.744-.822-3.172-7.16c-.192-.435-.903-.435-1.095 0l-3.17 7.16-7.745.822a.601.601 0 0 0-.508.413.606.606 0 0 0 .17.635l5.785 5.248-1.616 7.667a.605.605 0 0 0 .586.729.595.595 0 0 0 .3-.081L12 19.003l6.747 3.916c.204.119.46.105.652-.035a.606.606 0 0 0 .234-.613l-1.616-7.668 5.786-5.248a.606.606 0 0 0 .168-.634z"></path></svg>
+                4.9
+              </div>
+              <p>
+              Qualified native speaker with Business background
+              </p>
+            </div>
+        </Link>
+        <svg className="marker-svg" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 92" preserveAspectRatio="none"><defs><linearGradient id="a" x1="640" x2="640" y1="1351" y2="1443" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6ddae0" stop-opacity=".6"></stop><stop offset="1" stop-color="#3bb3bd"></stop></linearGradient></defs><path fill="#3bb3bd" d="M35 92s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z"></path><path fill="url(#a)" d="M640 1443s35-37.67 35-57a35 35 0 1 0-70 0c0 19.33 35 57 35 57z" transform="translate(-605 -1351)"></path></svg>
+        <div className="marker-photo">
+          <img src="https://avatars.preply.com/i/logos/i/logos/avatar_oma8de3u2is.jpg" alt="Lydia G." className="marker-img" width="50" height="50" />
+        </div>
+        
+        </div>
+      </div>
       </div>
     </div>
     

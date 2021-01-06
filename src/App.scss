@@ -777,6 +777,12 @@ $roboto: "Roboto";
   color: #384047;
 }
 
+.advantages-ul {
+  display: flex;
+  flex-flow: wrap;
+  padding: 32px 32px 8px;
+}
+
 .advantages-li {
   list-style: none;
   text-align: center;
@@ -1112,4 +1118,164 @@ main {
 .picture-globe {
   display: relative;
   width: 100%;
+}
+
+.marker {
+  position: absolute;
+  width: 56px;
+  transform: translate3d(-50%, 0, 0);
+  cursor: pointer;
+}
+
+.marker::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 10px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(59, 179, 189, 0.7);
+  box-shadow: 0 0 0 4px rgba(59, 179, 189, 0.3);
+}
+
+.marker:nth-child(2) {
+  width: 70px;
+  bottom: 93%;
+  left: 50%;
+}
+
+.marker:nth-child(3) {
+  width: 42px;
+  bottom: 74%;
+  left: 76%;
+}
+
+.marker:nth-child(4) {
+  width: 42px;
+  bottom: 74%;
+  left: 24%;
+}
+
+.marker:nth-child(5) {
+  bottom: 58%;
+  left: 60%;
+}
+
+.marker:nth-child(6) {
+  bottom: 58%;
+  left: 40%;
+}
+
+.marker:nth-child(7) {
+  bottom: 16%;
+  left: 18%;
+}
+
+.marker:nth-child(8) {
+  bottom: 20%;
+  left: 50%;
+}
+
+.marker:nth-child(9) {
+  width: 42px;
+  bottom: 6%;
+  left: 32%;
+}
+
+.marker:nth-child(10) {
+  bottom: 16%;
+  left: 82%;
+}
+
+.marker:nth-child(11) {
+  width: 42px;
+  bottom: 6%;
+  left: 68%;
+}
+
+.marker-tip {
+  position: relative;
+}
+
+.marker:nth-child(3)::after,
+.marker:nth-child(4)::after,
+.marker:nth-child(9)::after,
+.marker:nth-child(11)::after {
+  width: 7px;
+  height: 5px;
+}
+
+.marker-svg {
+  width: 100%;
+  display: block;
+}
+
+.marker-photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.marker-photo::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.marker-photo img {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #45c0ca;
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+}
+
+.marker-link {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%, 8px);
+  transition: opacity, transform, 0.2s;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #384047;
+  opacity: 0;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.2));
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.marker-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: calc(100% + 24px);
+  width: 100%;
+}
+
+.marker-link::after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-color: #fff transparent transparent;
+  border-style: solid;
+  border-width: 12px 12px 0;
 }
