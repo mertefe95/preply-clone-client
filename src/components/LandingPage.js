@@ -473,7 +473,7 @@ const LandingPage = () => {
 
        <li className="advantages-li">
          <div className="advantages-icon">
-          <svg width="23" height="23" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><title>Shape</title><g id="Page-1" fill="none" fill-rule="evenodd"><g id="1.5_TutorProfile-What_happens_next" transform="translate(-961 -310)" fill-rule="nonzero" fill="#FFF"><g id="Tooltip" transform="translate(948 149)"><g id="icon_contacts" transform="translate(12 160)"><path d="M8 1a6.99 6.99 0 0 0-7 7c0 3.873 3.127 7 7 7s7-3.127 7-7a7 7 0 0 0-7-7zm3.858 11.262a3.052 3.052 0 0 0-1.494-1.026l-.902-.265c-.31-.093-.466-.42-.373-.731.015-.062.062-.124.093-.171l.654-.731a2.25 2.25 0 0 0 .56-1.774l-.11-.886a2.281 2.281 0 0 0-1.026-1.65h-.016a2.287 2.287 0 0 0-2.504.032 2.225 2.225 0 0 0-.964 1.524l-.14.934a2.278 2.278 0 0 0 .544 1.866l.622.685a.37.37 0 0 1 .094.171.57.57 0 0 1-.374.731l-.902.265a3.052 3.052 0 0 0-1.493 1.026A5.734 5.734 0 0 1 2.244 8 5.762 5.762 0 0 1 8 2.244 5.762 5.762 0 0 1 13.756 8c0 1.68-.732 3.204-1.898 4.262z" id="Shape"></path></g></g></g></g></svg>
+         <svg width="23" height="23" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><title>Shape</title><g id="Page-1" fill="none" fill-rule="evenodd"><g id="1.5_TutorProfile-What_happens_next" transform="translate(-961 -310)" fill-rule="nonzero" fill="#FFF"><g id="Tooltip" transform="translate(948 149)"><g id="icon_contacts" transform="translate(12 160)"><path d="M8 1a6.99 6.99 0 0 0-7 7c0 3.873 3.127 7 7 7s7-3.127 7-7a7 7 0 0 0-7-7zm3.858 11.262a3.052 3.052 0 0 0-1.494-1.026l-.902-.265c-.31-.093-.466-.42-.373-.731.015-.062.062-.124.093-.171l.654-.731a2.25 2.25 0 0 0 .56-1.774l-.11-.886a2.281 2.281 0 0 0-1.026-1.65h-.016a2.287 2.287 0 0 0-2.504.032 2.225 2.225 0 0 0-.964 1.524l-.14.934a2.278 2.278 0 0 0 .544 1.866l.622.685a.37.37 0 0 1 .094.171.57.57 0 0 1-.374.731l-.902.265a3.052 3.052 0 0 0-1.493 1.026A5.734 5.734 0 0 1 2.244 8 5.762 5.762 0 0 1 8 2.244 5.762 5.762 0 0 1 13.756 8c0 1.68-.732 3.204-1.898 4.262z" id="Shape"></path></g></g></g></g></svg>
          </div>
          <div>
            <p className="advantages-p">Learn anytime</p>
@@ -558,49 +558,117 @@ const LandingPage = () => {
 
       </div>
 
+
+
       <div>
         <div className="wrap-div">
           <div className="success-wrap-div">
             <h2 className="success-story-h2">Read our success stories</h2>
-            <p className="skills-subtitle">Preply tutors have helped thousands of people prepare to speak confidently</p>
+            <p className="success-text">Preply tutors have helped thousands of people prepare to speak confidently</p>
           </div>
         </div>
 
-        <Paper elevation={1}>
-            <div>
-              <div className="success-img">
+      
+        <div className="slick-slider-main">
+          <button className="slick-arrow-btn" type="button">
+            Previous
+          </button>
 
+          <div className="slick-list">
+            <div className="slick-track">
+              <div className="slick-slide slick-cloned" data-index="-1" tabindex="-1" aria-hidden="true" style="width: 1216px;">
+                <div>
+                  <div className="slick-story">
+                    <div className="slick-image">
+                    <picture><source srcSet="https://preply.com/static/ssr/_next/static/images/story-3-small-1-21d4c2712f6da155db59dd011b7f13de.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/story-3-small-bcf993c4a794db945669c43abf787d02.jpg" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/story-3-1-c89c2e9e1125f78f3b67b8a7fd6f221a.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/story-3-69613490a44bc9f7840ee4efb3ebcb7f.jpg" alt="web" className="slick-inside-img" /></picture>
+                    </div>
+                    <div className="slick-copy">
+                        <div class="slick-user"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgFBgcGBQgHBgcJCAgJDBMMDAsLDBgREg4THBgdHRsYGxofIywlHyEqIRobJjQnKi4vMTIxHiU2OjYwOiwwMTD/2wBDAQgJCQwKDBcMDBcwIBsgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDD/wgARCABCAEIDAREAAhEBAxEB/8QAHAAAAQUBAQEAAAAAAAAAAAAABAECAwUGBwAI/8QAGQEAAgMBAAAAAAAAAAAAAAAAAQMCBAUA/9oADAMBAAIQAxAAAADmG9kaBbOxZmrPXsxrZV3amhTLE2Y7tQ+XtDLSYIjPqFS3SPjVWK5CzcqdfVW8VdW8R5gOeqOcFapqGxqYq2DVLEfGXgQxbOMAKAzRLgdImXpxEnEewmGXQofXrlH3LIdZqsrzAjQqjBkVZzas0lzHrr7CTM+xICK2Gy38t3HLYum+oxvcTxYyNAvtBp1dNqUWjgaFzO5F1x4GJqZh47bbWfb3KxA6NLeZ4OmVGSSH/8QAPRAAAgEDAwEFAwkECwAAAAAAAQIDAAQRBRIhMQYTFEFhIlFiFRYyUlNxgZKxQnSRogcXMzQ1ZXKCk5Th/9oACAEBAAE/AAUlkDJxgH2a7I9rtR7LXm+ycyQScywOfYetG7f2naGwIsCIJAcywSH20AGSaX5Vu7eOC308zSY73M+VCDPsls9SeTio4Lu3Qya1fpKbfLP7oweM+Q4rQOzuhaxev3Wo+MyGlmHdFRECeMk+ddrbqw0PTFuYnjaSFhHbjrsc8bz6iuz2ny63rkRlEdysrPvLy5L46+tDsBo/m38xrZJGc8H1XrSSsGYOTUFwySo27aykMrrwVI860L+l+/srMQazbC/+pch8b/8AXWu9stS1neL+dRZM2/w0WFU1857qCaWO0IjgfO+JNwRsjHI861ftVqOs20ENz3CQwElY402DJrsv21tNAnury7sQ8s/AS2OOD8Rya/ri/wApl/7NG6cY3pgeoppck4wAKjcM2D9L30he39kLlSM+lNNhvYyvwt0oMDuLkLXygob2FIH1hT3pJJjRR6tXyjcfaL+QUbhlyIzI6+ooSMTvSOQgfSJ6UC55NuR8VWvjpm7q2iZyoLFVYVP4yCYo8fdv9SY5qUs53SMpPlg8UNp4Mi9aVIUz3kw/2jNY077d/wDiqfS4diyNZSsUfdwnsj0wtTaclwEQrHH5kSRsM/rV32eupy72kEc0HkY5Po+/itJsrqwupVcNAsi7d0g2jitZguL6ZXizPHECGaPnB91Lot5sSXwU+xztGV86mGyVlGAB5E80pZm2lCay3r+Wra+SON2a1DBPwVKa/sry9Ucd30AT/wBpILO13LY3Ecc56l2J/Cta02S9tTDeBmDFV3Rv68cGtNsrfSrGdVhuBiRmPwZ8jingWVFea+l7tx9AKOn31c6Lp9zGrsiZYftdastAhs1RmSOePO7ZJ1/iKks4u8b+x6mg1zGGiERkDsfvUY4qJ4bbCtBmTaDuowm91SC2RMNK4UN7s+Z+6rq0ikjSFA6xQlNmGH7HSrKHuJ3kCljKwZ1Y8NwBj8QKvbBrHW5baVz4VcMnvKt0qdADuhYMScAinu5O9VPNBzkV4hDz4Vfy1LdQ8uDk4GWU1f6nIJ2XblVJG70Fdhh424nv2HEKbEPxN1/lojnhqBw2dxrtRbRvaQajjebY7JADglG6fwNeJ8YjdwciL3cnFXkvhrVHiAMg9/WvnBdfY1cO2B7R4AryI+/9a7Ff4C/7y/6LSnpSqOOBWuqPm7qf7u1aP/eJvx/WrwndH+FFVyeBX//EACIRAAMAAQQCAgMAAAAAAAAAAAABAhEDBBASITETMhQiUf/aAAgBAgEBPwBVkuexqQ08jSzk7dnhCpxIm7Z9V5PmEzI8UsMra5NPaTPkeh2RO1UmrtnXo/Ar+nY7CeRE2fJKK3Mlbk+ezudxWybuh1Useo2djsdhUjqv6LSp+ja05v8AY3FJ2foU0n4Emzq+Iwn5JqfUji08mrNmWKjT3HX2flSYxxoy6omfGBwmjW0utD4xxg2ennzzutPx24fFehG0+vOt9Ch8f//EACMRAAICAQQCAgMAAAAAAAAAAAABAhEDBBASIRMxIEEUIjL/2gAIAQMBAT8AcaMcuJicWchdLslTYukNlMqyiMnH0LP12T1TFqaHq2yGpivZ+XAo4jVFkonBkcDI4DwxOJxOKHGERKMhQRxKK2tnNL2ahKUOjTxqB2KzpFnIk2U/shOD6YpRSFtLHZ4mVtN0iUv2IyZjla2v4Z5Ut8E/r4LbUe98X9C3/9k=" alt="Jacob" className="slick-avatar" /><div className="slick-info"><div class="slick-name">Jacob</div><div class="slick-text">Digital nomad fluent in 4 languages</div></div></div>
+                        <blockquote class="slick-blockquote">“The best way for me to learn a new language is to take online classes with native speakers. Even though there are a lot of different platforms and options, I’d personally go with Preply. It’s one of the biggest language learning platforms in the world.”</blockquote>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <h4 className="success-card-title">PHILIP</h4>
-              <p className="success-card-text">Studying Russian language for 2 years</p>
-              <p className="success-card-subtext">"My tutors on Preply are very open, perfectly prepared and try to make it challenging for me but not too hard, and not too easy. Choosing online studies
-              was the best way to do it - the internet is fast, cheap and popular and it's easy to communicate in social media with native speakers.""
-              </p>
-            </div>
-        </Paper>
+              <div className="slick-slide" data-index="0" tabindex="-1" aria-hidden="true" style="outline: currentcolor none medium; width: 1216px;">
+                <div>
+                  <div className="slick-story">
+                    <div className="slick-image">
+                    <picture><source srcSet="https://preply.com/static/ssr/_next/static/images/story-1-small-1-2095e4d37bd5ce232ade0ad724ff3bac.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/story-1-small-a6e146339ed0c3a1dfb471608c61a44f.jpg" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/story-1-1-79deaf1a1ab255e39e48822c480f1e13.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/story-1-3e560925af8cd745f25a931bead0148d.jpg" alt="web" className="slick-inside-img" /></picture>
+                    </div>
+                    <div className="slick-copy">
+                        <div className="slick-user"><img src="data:image/jpeg;base64,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" alt="Philip" class="slick-avatar" /><div className="slick-info"><div class="slick-name">Philip</div><div class="slick-text">Studying Russian language for 2 years</div></div></div>
+                        <blockquote className="slick-blockquote">“My tutors on Preply are very open, perfectly prepared and try to make it challenging for me but not too hard, and not too easy. Choosing online studies was the best way to do it - the internet is fast, cheap and popular and it’s easy to communicate in social media with native speakers.”</blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="slick-slide slick-active slick-current" data-index="1" tabindex="-1" aria-hidden="false" style="outline: currentcolor none medium; width: 1216px;">
+                <div>
+                  <div className="slick-story">
+                    <div className="slick-image">
+                    <picture><source srcSet="https://preply.com/static/ssr/_next/static/images/story-2-small-1-2d525b72e7c33a561a828cca36912e3b.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/story-2-small-75af5180478bce1a6a5fe58785c1221b.jpg" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/story-2-1-5e97128f79257358a3b1d9a50bae7dd1.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/story-2-c3767e11aecfd8f00fd1e626ab70a770.jpg" alt="web" className="slick-inside-img" /></picture>
+                    </div>
+                    <div className="slick-copy">
+                        <div className="slick-user"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgFBgcGBQgHBgcJCAgJDBMMDAsLDBgREg4THBgdHRsYGxofIywlHyEqIRobJjQnKi4vMTIxHiU2OjYwOiwwMTD/2wBDAQgJCQwKDBcMDBcwIBsgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDD/wgARCAAwADADAREAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAABgECBAUHAwj/xAAZAQADAQEBAAAAAAAAAAAAAAADBAUCAQb/2gAMAwEAAhADEAAAAH8LVl6nAGE92RgibGN7MDW5Hprz9RFjCGuRRuVbSdPYlGU9twzQujE8vsamcWs6tMo8c6HyDDtE5HnDlIOxSK0fJaAqUEJRqlIGX1zpGibz3cdqyNQgWf/EADMQAAEDAwICBwcEAwAAAAAAAAECAwQABREGEgchExQxQUJRYSJSYnGCocEWIzLRM7Hh/9oACAEBAAE/AEyLiqOl5DKVIUgLG1YJwfSrzqluzv8AVVpckTsAONoO0Mk+E+aqsMa5XfD0GAso7stDCT86t9i1RBKJKVoW2kjMcjcSKeypwqLC4zgPttBJII80/wBE09DuwClRoinm+4hQH+6vDL+nYkueXi44y2QzuQoYUeQPMmuHVs/UuuGWJqyUOLU65TMZmFFQxGbS00gbQlNFzFcQZCLZbRc+x5C0oHrmo0+dkOtSsxHmvYIIO3vHLb+TXEsIc0m6yv8AzkBwD4U1wfh2VmDEucBl9+7udM2+S7gNEeQ9QajX9xyW3FEOYlzcoL3bsDy7zV/vJgNJWlp90n3c065Hv9kze4TyYG8Ky4VIVkAnKatVzW5JsOx97q7jEgJQ4rPIKO3PritWXU3K+Bkcm3EOI+SNp/JBrgc51W+3aEso2NkOop64AyAFJOw8lbQMkVcbi087+ywUqACdxTyx/YrXct86NuRDuFpZwn6iEn7E11QQxprZ4ELSr6kVKjdTbfkukb8EAnwjzNaIvrNp1p07y9jEzLRJ7vdJqZGkvSUPRJK204wUeFX/AGpVvlyz0SZLrCNwJU2vmR5ZriRdmoVtZsrKwuTKUCv0Qnn9zUbpDboykpW69HJAGcVqa5SrovZzQx2pR2bviVVyt4CUEfzWncPWuF+s7ixm1zD1hCBhG+r/AKrfi2x51plLeEk5VTDcmZMenT3y84+npVOA821d1aPMksOL2B51KMKR2dJj81//xAAgEQACAgMBAAIDAAAAAAAAAAABAgADBBESISJBEzEy/9oACAECAQE/ACixMcv7LOUj2I0DjUWxPuUWG55efxVeR2LfuGUoXYiW/DYmACLJlOfuFFgrUn2IvL6WX1jTGYtfA6mZ8kBECGcEGUgB47A9biN0dCXVdVRTz4YziUVliWj/ANEGY9QSI2/JlUAjYiUgtG0i6EyfGn//xAAeEQACAgMBAQEBAAAAAAAAAAABAgADBBESITETIv/aAAgBAwEBPwBHLS28J5K+nO4qMPYUMYMJfWK02JWO3/qIoHyBY7BRKKlsG5mkFPJSu4rOs7bUs9XZmC/qiZD7PImMPYVgTUyF2kxhzzHTkbMx7AGmi3wzkzKs0AsqYqol95aK2pj3nctu0sLfodygEpP/2Q==" alt="Belina" class="slick-avatar" /><div className="slick-info" /><div class="slick-name">Belina</div><div class="slick-text">Mastered 5 languages on Preply</div></div></div>
+                        <blockquote className="slick-blockquote">“I was a very shy person in the beginning. After more than 160 hours of classes on Preply, learning languages has somehow made me feel more comfortable about myself. Also I’ve become better in actually understanding a language. I know what to look for and what to focus on from the things I’ve learned.”</blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="slick-slide slick-cloned">
+                <div>
+                  <div className="slick-story">
+                    <div className="slick-image">
+                    <picture><source srcSet="https://preply.com/static/ssr/_next/static/images/story-3-small-1-21d4c2712f6da155db59dd011b7f13de.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/story-3-small-bcf993c4a794db945669c43abf787d02.jpg" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/story-3-1-c89c2e9e1125f78f3b67b8a7fd6f221a.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/story-3-69613490a44bc9f7840ee4efb3ebcb7f.jpg" alt="web" className="slick-inside-img" /></picture>
+                    </div>
+                    <div className="slick-copy">
+                        <div className="slick-user"><img src="data:image/jpeg;base64,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" alt="Jacob" className="slick-avatar" /><div className="slick-info"><div class="slick-name">Jacob</div><div class="slick-text">Digital nomad fluent in 4 languages</div></div></div>
+                        <blockquote className="slick-blockquote">“The best way for me to learn a new language is to take online classes with native speakers. Even though there are a lot of different platforms and options, I’d personally go with Preply. It’s one of the biggest language learning platforms in the world.”</blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="slick-slide slick-cloned">
+                <div>
+                  <div className="slick-story">
+                    <div className="slick-image">
+                    <picture><source srcSet="https://preply.com/static/ssr/_next/static/images/story-1-small-1-2095e4d37bd5ce232ade0ad724ff3bac.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/story-1-small-a6e146339ed0c3a1dfb471608c61a44f.jpg" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/story-1-1-79deaf1a1ab255e39e48822c480f1e13.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/story-1-3e560925af8cd745f25a931bead0148d.jpg" alt="web" className="slick-inside-img" /></picture>
+                    </div>
+                    <div className="slick-copy">
+                        <div class="slick-user"><img src="data:image/jpeg;base64,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" alt="Philip" class="slick-avatar" /><div className="slick-info"><div class="slick-name">Philip</div><div class="slick-text">Studying Russian language for 2 years</div></div></div>
+                        <blockquote class="slick-blockquote">“My tutors on Preply are very open, perfectly prepared and try to make it challenging for me but not too hard, and not too easy. Choosing online studies was the best way to do it - the internet is fast, cheap and popular and it’s easy to communicate in social media with native speakers.”</blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="slick-slide slick-cloned">
+                <div>
+                  <div className="slick-story">
+                    <div className="slick-image">
+                    <picture><source srcSet="https://preply.com/static/ssr/_next/static/images/story-2-small-1-2d525b72e7c33a561a828cca36912e3b.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/story-2-small-75af5180478bce1a6a5fe58785c1221b.jpg" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/story-2-1-5e97128f79257358a3b1d9a50bae7dd1.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/story-2-c3767e11aecfd8f00fd1e626ab70a770.jpg" alt="web" className="slick-inside-img" /></picture>
+                    </div>
+                    <div className="slick-copy">
+                        <div className="slick-user"><img src="" alt="Belina" class="avatar___3TmIJ" /><div className="slick-info"><div class="slick-name">Belina</div><div className="slick-text">Mastered 5 languages online on Preply</div></div></div>
+                        <blockquote className="slick-blockquote">“I was a very shy person in the beginning. After more than 160 hours of classes on Preply, learning languages has somehow made me feel more comfortable about myself. Also I’ve become better in actually understanding a language. I know what to look for and what to focus on from the things I’ve learned.”</blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="slick-slide slick-cloned">
+                <div>
+                  <div className="slick-story">
+                    <div className="slick-image">
+                    <picture><source srcSet="https://preply.com/static/ssr/_next/static/images/story-3-small-1-21d4c2712f6da155db59dd011b7f13de.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/story-3-small-bcf993c4a794db945669c43abf787d02.jpg" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/story-3-1-c89c2e9e1125f78f3b67b8a7fd6f221a.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/story-3-69613490a44bc9f7840ee4efb3ebcb7f.jpg" alt="web" className="slick-inside-img" /></picture>
+                    </div>
+                    <div className="slick-copy">
+                        <div class="slick-user"><img src="data:image/jpeg;base64,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" alt="Jacob" className="slick-avatar" /><div className="slick-info"><div class="slick-name">Jacob</div><div class="slick-text">Digital nomad fluent in 4 languages</div></div></div>
+                        <blockquote class="slick-blockquote">“The best way for me to learn a new language is to take online classes with native speakers. Even though there are a lot of different platforms and options, I’d personally go with Preply. It’s one of the biggest language learning platforms in the world.”</blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
 
-      <div className="slider">
-        <div className="sliders">
-          <input type="radio" name="radio-btn" id="radio1" />
-          <input type="radio" name="radio-btn" id="radio2" />
-          <input type="radio" name="radio-btn" id="radio3" />
-          <input type="radio" name="radio-btn" id="radio4" />
-
-          <div className="slide first">
-            <img src="" alt="" />
-          </div>
-          <div className="slide">
-            <img src="" />
-          </div>  
-          <div className="slide">
-            <img src="" />
-          </div>
-          <div className="slide">
-            <img src="2.jpg" alt="" />
-          </div>
-        </div>
-      </div>
 
       </div>
 
