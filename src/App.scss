@@ -168,11 +168,13 @@ $roboto: "Roboto";
 }
 
 .login-form-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  min-height: 100%;
+  padding-bottom: 50px;
+  overflow: hidden;
   background-color: #edeff0;
-  height: 100vh;
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #333;
 }
 
 .or-span {
@@ -1966,4 +1968,22 @@ main {
   font-weight: 300;
   line-height: 1.4285;
   font-size: 16px;
+}
+
+.form-table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.form-table-row {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+  font-family: "Roboto";
+  font-size: 14px;
 }

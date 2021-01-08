@@ -37,48 +37,41 @@ const Login = () => {
   const classes = useStyles();
 
 
-
   return (
     <div className="login-form-div">
-    
-  <form className="login-form">
-    <div className="upper-login">
-      <h4 className="login-text">Log in</h4>
-      <p className="login-span-text"><Link className="formspan-link"><span className="login-span">Sign up as student</span></Link> or <Link><span className="login-span">Sign up as a tutor</span></Link></p>
+      <div className="login-main">
+        <div className="login-page">
+          <div className="login-form">
+            <div className="login-inner-first">
+              <h1 className="login-h1">Log in</h1>
+              <div className="h1-right">
+
+              </div>
+              <div className="h1-wrap">
+
+              </div>
+              <form method="post">
+                <div className="form-table">
+                  <div className="form-table-row">
+                    <label className="form-title">Password</label>
+                    <Link className="forgot-password" tabIndex="3">
+                      <span>Forgot password?</span>
+                    </Link>
+                    <div className="form-password-div" data-qa-id="empty-password-error-msg">
+                      <input className="form-input" tabIndex="2" type="password" autoComplete="current-password" name="password" data-qa-id="login-password-field"  value="" />
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div className="login-inner-second" style={{ height: "21px" }}>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
-
-    <hr/>
-    
-    <span className="or-span">or</span>
-
-    <div className="bottom-form">
-
-    <div className="form-group email-div">
-      <label className="form-label" htmlFor="email-input"> Email </label>
-      <input className="form-input" type="email" id="email-input" name="email-input" />
-    </div>
-
-    <div className="form-group password-div">
-      <label className="form-label" htmlFor="password-input"> Password </label>
-      <input className="form-input" id="password-input" name="password-input" type="password" style={{ border: "none" }} /> 
-      <span><Link className="formspan-link"><p className="form-span-p">Forgot Password?</p></Link></span>
-    </div>
-
-    
-    <span className="checkbox-span">
-      <input type="checkbox" label="Remember me" id="checkbox" />
-      <label htmlFor="checkbox">Remember me</label>
-    </span>
-
-
-    <Button variant="contained" className={classes.buttonStyles}>
-    Log in
-    </Button>
-    </div>
-
-</form>
-
-</div>
 )
 }
 

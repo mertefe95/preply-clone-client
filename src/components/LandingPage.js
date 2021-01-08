@@ -2,9 +2,13 @@ import React, { useState } from 'react';
 import { Container, Paper, Grid } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
-
-
-
+import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper.scss';
+import 'swiper/components/navigation/navigation.scss';
+import 'swiper/components/pagination/pagination.scss';
+import 'swiper/components/scrollbar/scrollbar.scss';
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 const LandingPage = () => {
   const useStyles = makeStyles((theme) => ({
@@ -41,6 +45,8 @@ const LandingPage = () => {
   const classes = useStyles();
   const [toggle, useToggle] = useState();
 
+  
+  
   return (
   
   
@@ -571,9 +577,25 @@ const LandingPage = () => {
 
       
         <div className="slick-slider-main">
-          <button className="slick-arrow-btn" type="button">
-            Previous
-          </button>
+
+        <Swiper
+          spaceBetween={50}
+          slidesPerView={1}
+          navigation
+          scrollbar={{ draggable: true }}
+          onSlideChange={() => console.log('slide change')}
+          onSwiper={(swiper) => console.log(swiper)}
+        >
+        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+        </Swiper>
+
+
+
+
+
 
           <div className="slick-list">
             <div className="slick-track" style={{width: "8512px", opacity: "1", transform: "translate3d(-2432px, 0px, 0px)"}}>
