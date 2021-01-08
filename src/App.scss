@@ -2248,11 +2248,13 @@ main {
   color: currentColor;
 }
 
-.email-div {
+.form-email-div {
   width: 309px;
   position: relative;
   min-height: 28px;
   padding-right: 24px;
+  font-size: 14px;
+  color: #333;
 }
 
 .form-input-email {
@@ -2346,17 +2348,16 @@ main {
   margin: 20px 0 0 0;
   min-height: 18px;
   color: #384047;
+  font-weight: inherit;
 }
 
-.second-migration-checkbox:checked {
-}
-
-.remember-me {
+.remember_me {
   position: relative;
   top: -2px;
   margin-right: 5px;
   margin-top: 2px;
   float: left;
+  font-family: inherit;
   margin-left: -18px;
   width: auto;
   margin: 3px 0;
@@ -2368,5 +2369,80 @@ main {
   display: none;
 }
 
-.remember-me[type="checkbox"] {
+.checkbox_label {
+  word-wrap: break-word;
+  position: relative;
+  padding-left: 24px;
+  color: #384047;
+  min-height: 16px;
+  min-width: 16px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.remember_me:checked ~ .checkbox_label::before {
+  background-color: #3bb3bd;
+  border-color: #3bb3bd;
+}
+
+.checkbox_label::before {
+  content: "";
+  border-radius: 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #dadfe1;
+  transition: all 0.1s, box-shadow 0.2s;
+  word-wrap: break-word;
+  color: #384047;
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: inherit;
+}
+
+.third-migration {
+  flex: 1 1 100%;
+  width: 100%;
+  backface-visibility: hidden;
+  color: #384047;
+  line-height: 1.4285;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Roboto";
+}
+
+.login-button {
+  padding: 15px;
+  margin-left: 168px;
+  max-width: 308px;
+  text-shadow: none;
+  box-shadow: none;
+  height: auto;
+  font-size: 16px;
+  width: 100%;
+  background: #3bb3bd;
+  color: #fff;
+  border-color: #3bb3bd;
+  line-height: 1;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 2px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  touch-action: manipulation;
+  border-width: 1px;
+  border-style: solid;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  user-select: none;
+  outline: 0;
+  transition: color 50ms, background-color 50ms, border-color 50ms,
+    box-shadow 0.2s;
 }

@@ -93,14 +93,14 @@ const Login = () => {
                 <div className="form-table">
                   <div className="form-table-row">
                     <label className="form-title" for="email">Email</label>
-                    <div className="email-div">
-                      <input id="email" tabIndex="2" type="text" name="email" data-qa-id="login-email-field" value="" />
+                    <div className="form-email-div" >
+                      <input className="form-input-email" id="email" tabIndex="2" type="text" name="email" data-qa-id="login-email-field" value="" />
                     </div>
                   </div>
                   <div className="form-table-row">
                     <label className="form-title" for="password">Password</label>
                     <Link className="forgot-password" tabIndex="3">
-                      <span>Forgot password?</span>
+                      <span className="forgot-password-span">Forgot password?</span>
                     </Link>
                     <div className="form-password-div" data-qa-id="empty-password-error-msg">
                       <input className="form-input-password" tabIndex="2" type="password" autoComplete="current-password" name="password" data-qa-id="login-password-field"  value="" />
@@ -108,7 +108,8 @@ const Login = () => {
                   </div>
                   <div className="form-table-row">
                     <div className="second-migration">
-                      <label>
+                      <label className="second-migration-checkbox">
+                        <input className="remember-me" name="remember_me" type="checkbox" checked="" />
                         <span className="checkbox-label" tabIndex="3">Remember me</span>
                       </label>
                     </div>
