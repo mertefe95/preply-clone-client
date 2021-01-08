@@ -84,7 +84,9 @@ const Login = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="sign-in-seperator"></div>
+                  <div className="sign-in-seperator">
+                    <span className="sign-in-seperator-text"> or </span>
+                  </div>
                 </div>
               </div>
               <form method="post">

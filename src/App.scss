@@ -1966,6 +1966,7 @@ main {
   justify-content: center;
   margin: 0 auto;
   width: 100%;
+  font-family: "Roboto";
 }
 
 .form-table-row {
@@ -1974,8 +1975,8 @@ main {
   flex-wrap: wrap;
   align-items: flex-start;
   width: 100%;
-  font-family: "Roboto";
   font-size: 14px;
+  color: #333;
 }
 
 .form-recaptcha {
@@ -2176,6 +2177,7 @@ main {
 }
 
 .sign-in-seperator {
+  margin-top: 24px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -2187,6 +2189,18 @@ main {
   background-color: #dadfe1;
   color: #5c6268;
   z-index: 0;
+  line-height: 1.42;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.sign-in-seperator-text {
+  padding: 0 16px;
+  background-color: #fff;
+  color: #5c6268;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .sign-text {
@@ -2212,6 +2226,12 @@ main {
   align-items: center;
   justify-content: center;
   height: 48px;
+  white-space: nowrap;
+  font-size: 16px;
+  width: 100%;
+  line-height: 1;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .sign-in-btn-google::before {
@@ -2226,4 +2246,127 @@ main {
   position: absolute;
   top: 50%;
   color: currentColor;
+}
+
+.email-div {
+  width: 309px;
+  position: relative;
+  min-height: 28px;
+  padding-right: 24px;
+}
+
+.form-input-email {
+  width: 289px;
+  line-height: 20px;
+  margin: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+  display: inline-block;
+  height: 18px;
+  padding: 4px 8px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.forgot-password {
+  order: 1;
+  margin-top: 4px;
+  color: #3bb3bd;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-password-span {
+  display: inline-block;
+  margin-bottom: 8px;
+  border-bottom: none;
+  font-size: 14px;
+  color: #3bb3bd;
+}
+
+.forgot-password::after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  color: #3bb3bd;
+  font-size: 14px;
+}
+
+.form-password-div {
+  width: 309px;
+  position: relative;
+  min-height: 28px;
+  padding-right: 24px;
+}
+
+.form-input-password {
+  width: 289px;
+  line-height: 20px;
+  margin: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+  display: inline-block;
+  height: 18px;
+  padding: 4px 8px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.second-migration {
+  flex: 1 1 100%;
+  width: 100%;
+  backface-visibility: hidden;
+  color: #384047;
+  line-height: 1.4285;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.second-migration-checkbox {
+  margin-left: 168px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  display: block;
+  max-width: 100%;
+  line-height: 16px;
+  font-size: 14px;
+  margin: 20px 0 0 0;
+  min-height: 18px;
+  color: #384047;
+}
+
+.second-migration-checkbox:checked {
+}
+
+.remember-me {
+  position: relative;
+  top: -2px;
+  margin-right: 5px;
+  margin-top: 2px;
+  float: left;
+  margin-left: -18px;
+  width: auto;
+  margin: 3px 0;
+  line-height: normal;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  color: #384047;
+  display: none;
+}
+
+.remember-me[type="checkbox"] {
 }
