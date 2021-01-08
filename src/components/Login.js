@@ -63,16 +63,16 @@ const Login = () => {
                   </div>
                   <div className="sign-list">
                     <div className="sign-item">
-                      <Link id="facebook_login" className="sign-in-btn" data-pfb-path="/login/facebook/" data-pfb-path-param="prev:/en/login" data-pfb-autodetect-tz="true" to="/login/facebook/?prev=/en/login&timezone=Europe/Istanbul&language=en&registration_type=MN">
+                      <a id="facebook_login" className="sign-in-btn" data-pfb-path="/login/facebook/" data-pfb-path-param="prev:/en/login" data-pfb-autodetect-tz="true" to="/login/facebook/?prev=/en/login&timezone=Europe/Istanbul&language=en&registration_type=MN">
                                   <svg className="facebook-svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
                                         <path d="M498,200a4,4,0,0,1,4-4h20a4,4,0,0,1,4,4v20a4,4,0,0,1-4,4H502a4,4,0,0,1-4-4Z" transform="translate(-498 -196)" fill="#fff"></path>
                                         <path d="M513.73,219v-7.754h2.6l.39-3.023h-2.99v-1.93c0-.874.243-1.47,1.5-1.47h1.6v-2.7A21.335,21.335,0,0,0,514.5,202a3.641,3.641,0,0,0-3.887,3.994v2.23H508v3.022h2.61V219Z" transform="translate(-498 -196)" fill="#3b5998"></path>
                                     </svg>
                                     <span className="sign-text">Log in with Facebook</span>
-                      </Link>
+                      </a>
                     </div>
                     <div className="sign-item">
-                      <Link id="google_login" className="sign-in-btn" data-pfb-path="/login/google-oauth2/" data-pfb-path-param="prev:/en/login" data-pfb-autodetect-tz="true" to="/login/google-oath2/?prev=/en/login&timezone=Europe/Istanbul&language=en&registration_type=MN">
+                      <a id="google_login" className="sign-in-btn-google" data-pfb-path="/login/google-oauth2/" data-pfb-path-param="prev:/en/login" data-pfb-autodetect-tz="true" to="/login/google-oath2/?prev=/en/login&timezone=Europe/Istanbul&language=en&registration_type=MN">
                                     <svg className="google-svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
                                         <path d="M498,264a4,4,0,0,1,4-4h20a4,4,0,0,1,4,4v20a4,4,0,0,1-4,4H502a4,4,0,0,1-4-4Z" transform="translate(-498 -260)" fill="#fff"></path>
                                         <path d="M519.68,274.186a9.15,9.15,0,0,0-.145-1.636H512v3.1h4.3a3.68,3.68,0,0,1-1.6,2.414v2.007h2.586A7.8,7.8,0,0,0,519.68,274.186Z" transform="translate(-498 -260)" fill="#4285f4"></path>
@@ -81,12 +81,10 @@ const Login = () => {
                                         <path d="M512,269.182a4.318,4.318,0,0,1,3.057,1.2l2.295-2.294A7.691,7.691,0,0,0,512,266a8,8,0,0,0-7.15,4.408l2.674,2.072a4.768,4.768,0,0,1,4.476-3.3Z" transform="translate(-498 -260)" fill="#ea4335"></path>
                                     </svg>
                                     <span className="sign-text">Log in with Google</span>
-                      </Link>
+                      </a>
                     </div>
                   </div>
-                  <div className="sign-in-seperator">
-
-                  </div>
+                  <div className="sign-in-seperator"></div>
                 </div>
               </div>
               <form method="post">
@@ -109,7 +107,7 @@ const Login = () => {
                   <div className="form-table-row">
                     <div className="second-migration">
                       <label>
-                        <span className="checkbox-lbel" tabIndex="3">Remember me</span>
+                        <span className="checkbox-label" tabIndex="3">Remember me</span>
                       </label>
                     </div>
                   <div className="form-recaptcha">
@@ -117,9 +115,7 @@ const Login = () => {
                   <div className="form-table-row">
                     <div className="third-migration">
                       <button className="login-button btn-success" tabIndex="4" data-qa-id="finish-login-btn">Log in</button>
-                      
-                    </div>
-                    
+                    </div>                  
                   </div>
                   </div>
                 </div>
@@ -129,7 +125,9 @@ const Login = () => {
 
             </div>
           </div>
-          <div className="clear" style={{ height: "21px" }}
+          <div className="clear-low" style={{ height: "21px" }}>
+
+          </div>
         </div>
       </div>
 

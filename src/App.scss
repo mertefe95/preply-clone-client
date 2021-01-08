@@ -1992,6 +1992,8 @@ main {
   margin-top: 4px;
   font-weight: 500;
   font-size: 14px;
+  display: block;
+  line-height: 18px;
 }
 
 .login-form-div {
@@ -2001,7 +2003,13 @@ main {
   overflow: hidden;
 }
 
-.login-main {
+.login-form {
+  margin-top: 20px;
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 2, 4, 0.2);
 }
 
 .login-page {
@@ -2037,6 +2045,103 @@ main {
   font-weight: 500;
 }
 
+.h1-right {
+  display: flex;
+  flex: 0 1 auto;
+  margin-top: 0;
+  margin-bottom: 8px;
+  float: right;
+  font-size: 14px;
+  color: #999;
+}
+
+.sign-up-student {
+  font-weight: 500;
+  color: #3bb3bd;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sign-up-divider {
+  margin: 0 4px;
+  font-size: 14px;
+  color: #999;
+}
+
+.sign-up-tutor {
+  font-weight: 500;
+  color: #3bb3bd;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sign-list {
+  width: 100%;
+  max-width: 308px;
+}
+
+.sign-item {
+  width: 100%;
+  text-align: left;
+}
+
+.sign-in-btn {
+  background: #3d5188;
+  color: #fff;
+  border-color: #3d5188;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  white-space: nowrap;
+  font-size: 16px;
+  width: 100%;
+  line-height: 1;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 2px;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  border-width: 1px;
+  border-style: solid;
+  overflow: hidden;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  user-select: none;
+  outline: 0;
+  transition: color 50ms, background-color 50ms, border-color 50ms,
+    box shadow 0.2s;
+}
+
+.sign-in-btn::before {
+  left: 16px;
+  color: currentcolor;
+  content: "";
+  display: inline-block;
+  font: normal normal normal 14px/1 iconFont;
+  font-size: inherit;
+  text-rendering: auto;
+  min-width: 1em;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 50%;
+  padding: 12px;
+  text-shadow: none;
+  white-space: nowrap;
+}
+
+.facebook-svg {
+  color: #fff;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+}
+
 .login-page::after {
   clear: both;
 }
@@ -2047,4 +2152,78 @@ main {
   display: block;
   height: 0;
   visibility: hidden;
+}
+
+.migration-wrap {
+  flex: 1 1 100%;
+  width: 100%;
+  backface-visibility: hidden;
+  color: #384047;
+  line-height: 1.4285;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.sign-in-facebook-google {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.sign-in-seperator {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 24px;
+  height: 1px;
+  text-align: center;
+  background-color: #dadfe1;
+  color: #5c6268;
+  z-index: 0;
+}
+
+.sign-text {
+  flex: 1 1 100%;
+  text-shadow: none;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sign-in-btn-google {
+  padding: 12px;
+  text-shadow: none;
+  box-shadow: none;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+}
+
+.sign-in-btn-google::before {
+  left: 16px;
+  content: "";
+  display: inline-block;
+  font: normal normal normal 14px/1 iconFont;
+  font-size: inherit;
+  text-rendering: auto;
+  min-width: 1em;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 50%;
+  color: currentColor;
 }
