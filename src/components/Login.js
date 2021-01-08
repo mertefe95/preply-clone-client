@@ -109,15 +109,15 @@ const Login = () => {
                   <div className="form-table-row">
                     <div className="second-migration">
                       <label className="second-migration-checkbox">
-                        <input className="remember-me" name="remember_me" type="checkbox" checked="" />
-                        <span className="checkbox-label" tabIndex="3">Remember me</span>
+                        <input className="remember_me" name="remember_me" type="checkbox" checked="" />
+                        <span className="checkbox_label" tabIndex="3">Remember me</span>
                       </label>
                     </div>
                   <div className="form-recaptcha">
                   </div>
                   <div className="form-table-row">
                     <div className="third-migration">
-                      <button className="login-button btn-success" tabIndex="4" data-qa-id="finish-login-btn">Log in</button>
+                      <button className="login-button" tabIndex="4" data-qa-id="finish-login-btn">Log in</button>
                     </div>                  
                   </div>
                   </div>

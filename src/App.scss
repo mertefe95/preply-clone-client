@@ -2087,6 +2087,7 @@ main {
 }
 
 .sign-in-btn {
+  padding: 12px;
   background: #3d5188;
   color: #fff;
   border-color: #3d5188;
@@ -2445,4 +2446,27 @@ main {
   outline: 0;
   transition: color 50ms, background-color 50ms, border-color 50ms,
     box-shadow 0.2s;
+  font-family: inherit;
+  margin-bottom: 0;
+}
+
+.login-button:hover {
+  background: #63c3cb;
+  color: #fff;
+  border-color: #63c3cb;
+  border: 1px solid #63c3cb;
+}
+
+.login-button:active {
+  background: #35a1aa;
+  color: #fff;
+  border-color: #35a1aa;
+  border: 1px solid #35a1aa;
+}
+
+.login-button:visited {
+  background: #35a1aa;
+  color: #fff;
+  border-color: #35a1aa;
+  border: 1px solid #35a1aa;
 }
