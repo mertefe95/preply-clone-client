@@ -167,16 +167,6 @@ $roboto: "Roboto";
   color: #999;
 }
 
-.login-form-div {
-  min-height: 100%;
-  padding-bottom: 50px;
-  overflow: hidden;
-  background-color: #edeff0;
-  font-family: "Roboto";
-  font-size: 14px;
-  color: #333;
-}
-
 .or-span {
   display: flex;
   flex-basis: 100%;
@@ -1986,4 +1976,75 @@ main {
   width: 100%;
   font-family: "Roboto";
   font-size: 14px;
+}
+
+.form-recaptcha {
+  margin: 12px auto 0;
+  display: flex;
+  justify-content: center;
+}
+
+.form-title {
+  width: 136px;
+  padding-right: 32px;
+  text-align: right;
+  margin-bottom: 0;
+  margin-top: 4px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.login-form-div {
+  background: #edeff0;
+  min-height: 100%;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.login-main {
+}
+
+.login-page {
+  width: 700px;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-form {
+  margin-top: 20px;
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 2, 4, 0.2);
+}
+
+.login-inner-first {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 28px 28px;
+}
+
+.login-h1 {
+  flex: 1 1 auto;
+  font-size: 24px;
+  margin-right: auto;
+  line-height: 1;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.login-page::after {
+  clear: both;
+}
+
+.login-page::before,
+.login-page::after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  visibility: hidden;
 }
