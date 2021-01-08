@@ -1512,3 +1512,121 @@ main {
   font-weight: 300;
   line-height: 1.4285;
 }
+
+.tutor-with-preply {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto 64px;
+  padding: 0 32px;
+  font-family: "Arial";
+  font-size: 14px;
+}
+
+.tutor-story-wrapper {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  min-height: 450px;
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.tutor-story-img {
+  display: flex;
+  position: relative;
+  width: 45%;
+  overflow: hidden;
+  order: 2;
+}
+
+.tutor-picture {
+  position: relative;
+  width: 100%;
+}
+
+.tutor-img {
+  top: 0;
+  left: 0;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tutor-story-main {
+  position: relative;
+  width: 55%;
+  padding: 48px 32px;
+  height: 100%;
+}
+
+.tutor-main-title {
+  margin-bottom: 8px;
+  color: #384047;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.tutor-subtitle {
+  color: #6f757b;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.4444;
+}
+
+.tutor-ul {
+  list-style-type: none;
+  margin: 24px 0;
+}
+
+.tutor-li {
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.tutor-svg {
+  margin-right: 8px;
+}
+
+.tutor-story-action {
+  margin-top: 18%;
+}
+
+.tutor-btn {
+  overflow: hidden;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  user-select: none;
+  outline: 0;
+  transition: color 50ms, background-color 50ms, border-color 50ms,
+    box-shadow 0.2s;
+  border-radius: 2px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 1;
+  text-decoration: none;
+  font-weight: 500;
+  background: #3bb3bd;
+  color: #fff;
+  border: 1px solid #3bb3bd;
+  margin-right: 32px;
+  padding: 15px 30px;
+  font-size: 16px;
+}
+
+.tutor-link {
+  font-weight: 500;
+  color: #3bb3bd;
+  cursor: pointer;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.link-svg {
+  position: relative;
+  top: 4px;
+  right: 8px;
+}

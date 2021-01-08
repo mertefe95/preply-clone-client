@@ -699,7 +699,7 @@ const LandingPage = () => {
               </div>
             </div>
             <div className="box-image">
-              <picture className="box-picture"><source srcset="https://preply.com/static/ssr/_next/static/images/step-1-small-ad3a0113e887b5eca98b3ab6545b5536.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-1-small-4bb1d9789dd41f6f8093cc1c6811829a.png" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-1-a9a87e884b956e567f44642ee76c5ff8.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/step-1-cf3240e74e2a41ab3c880221fb42ae83.png" alt="web" className="box-image" /></picture>
+              <picture className="box-picture"><source srcset="https://preply.com/static/ssr/_next/static/images/step-1-small-ad3a0113e887b5eca98b3ab6545b5536.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-1-small-4bb1d9789dd41f6f8093cc1c6811829a.png" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-1-a9a87e884b956e567f44642ee76c5ff8.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/step-1-cf3240e74e2a41ab3c880221fb42ae83.png" alt="web" className="box-pic-img" /></picture>
             </div>
           </div>
           <div className="box-row">
@@ -715,7 +715,7 @@ const LandingPage = () => {
               </div>
             </div>
             <div className="box-image">
-            <picture className="box-picture"><source srcSet="https://preply.com/static/ssr/_next/static/images/step-2-small-2355fd1bb153442bd95f6dc3c714b394.webp" type="image/webp" media="(max-width: 480px)" /><source srcset="https://preply.com/static/ssr/_next/static/images/step-2-small-b4ec81448155119a47f6682f6daa527e.png" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-2-f56ab539540d6d663ef552f18131d6ea.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/step-2-52d944752b1bfde200892638178a469f.png" alt="web" className="box-image" /></picture>
+            <picture className="box-picture"><source srcSet="https://preply.com/static/ssr/_next/static/images/step-2-small-2355fd1bb153442bd95f6dc3c714b394.webp" type="image/webp" media="(max-width: 480px)" /><source srcset="https://preply.com/static/ssr/_next/static/images/step-2-small-b4ec81448155119a47f6682f6daa527e.png" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-2-f56ab539540d6d663ef552f18131d6ea.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/step-2-52d944752b1bfde200892638178a469f.png" alt="web" className="box-pic-img" /></picture>
             </div>
           </div>
           <div className="box-row">
@@ -731,7 +731,7 @@ const LandingPage = () => {
               </div>
             </div>
             <div className="box-image">
-            <picture class="box-picture"><source srcSet="https://preply.com/static/ssr/_next/static/images/step-3-small-fc3a91f2d43bce5a8d6e5d49820b607a.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-3-small-6d10d20c74efba017593cbbda6620b93.png" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-3-feeae6564b5d004de9310d502f3b5b57.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/step-3-91630db4e7bb6a200547926c8870169a.png" alt="web" className="box-image" /></picture>
+            <picture class="box-picture"><source srcSet="https://preply.com/static/ssr/_next/static/images/step-3-small-fc3a91f2d43bce5a8d6e5d49820b607a.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-3-small-6d10d20c74efba017593cbbda6620b93.png" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-3-feeae6564b5d004de9310d502f3b5b57.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/step-3-91630db4e7bb6a200547926c8870169a.png" alt="web" className="box-pic-img" /></picture>
             </div>
           </div>
           <div className="box-row">
@@ -747,7 +747,7 @@ const LandingPage = () => {
               </div>
             </div>
             <div className="box-image">
-            <picture class="box-picture"><source srcSet="https://preply.com/static/ssr/_next/static/images/step-4-small-63b87b323ed7a1d79bff6870d73179da.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-4-small-509fbf943374d5401457ab8c69ac2d9d.png" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-4-4a01d56f3d6e21b52770a6b0ed763b2e.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/step-4-9ed4e32d021eb3d547fbd872dffb8d97.png" alt="web" class="box-image" /></picture>
+            <picture class="box-picture"><source srcSet="https://preply.com/static/ssr/_next/static/images/step-4-small-63b87b323ed7a1d79bff6870d73179da.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-4-small-509fbf943374d5401457ab8c69ac2d9d.png" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-4-4a01d56f3d6e21b52770a6b0ed763b2e.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/step-4-9ed4e32d021eb3d547fbd872dffb8d97.png" alt="web" className="box-pic-img" /></picture>
             </div>
           </div>
         </div>
@@ -762,6 +762,40 @@ const LandingPage = () => {
 
       </div>
 
+    </div>
+    <div className="tutor-with-preply">
+      <div className="tutor-story-wrapper">
+        <div className="tutor-story-img">
+          <picture className="tutor-picture"><source srcSet="https://preply.com/static/ssr/_next/static/images/become-a-tutor-small-1-27201222dc7c201af8960852336d4185.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/become-a-tutor-small-d42dbd2e2d5822742f882f8e1944e5d0.jpg" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/become-a-tutor-1-bb1ec6b4a321ab020a03059277ada202.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/become-a-tutor-82ab9060f9949b3a045551a6afd30fae.jpg" alt="web" className="tutor-img" /></picture>
+        </div>
+        <div className="tutor-story-main">
+          <h2 className="tutor-main-title">Tutor with Preply</h2>
+          <div className="tutor-subtitle">
+            Earn money sharing your expert knowledge with students. Sign up to start tutoring online with Preply.
+          </div>
+          <ul className="tutor-ul"> 
+            <li className="tutor-li">
+              <svg className="tutor-svg" width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><title>Shape</title><path d="M12.344 13.601a7.55 7.55 0 0 0 1.257-1.257l4.028 4.028a.889.889 0 0 1-1.257 1.257l-4.028-4.028zm-4.677 1.621a7.556 7.556 0 1 1 0-15.112 7.556 7.556 0 0 1 0 15.112zm0-1.778a5.778 5.778 0 1 0 0-11.556 5.778 5.778 0 0 0 0 11.556z" fill="#3BB3BD"></path></svg>
+              <div>Find new students</div>
+            </li>
+            <li className="tutor-li">
+              <svg className="tutor-svg" width="18" height="18" viewBox="0 0 16 18" xmlns="http://www.w3.org/2000/svg"><title>calendar_icon</title><g id="Main-Page" fill="none" fill-rule="evenodd"><g id="01_1_Main_page_Web_Hovers" transform="translate(-68 -4762)" fill="#3BB3BD"><g id="Become-a-tutor" transform="translate(32 4531)"><path d="M17.6 4.6C18.923 4.6 20 5.676 20 7v11.2c0 1.324-1.077 2.4-2.4 2.4H6.4A2.403 2.403 0 0 1 4 18.2V7c0-1.324 1.077-2.4 2.4-2.4H8v-.8a.8.8 0 1 1 1.6 0v.8h4.8v-.8a.8.8 0 1 1 1.6 0v.8h1.6zm0 14.4a.8.8 0 0 0 .8-.8V11H5.6v7.2c0 .442.36.8.8.8h11.2zM6.4 6.2a.8.8 0 0 0-.8.8v2.4h12.8V7a.8.8 0 0 0-.8-.8H16V7a.8.8 0 1 1-1.6 0v-.8H9.6V7A.8.8 0 0 1 8 7v-.8H6.4z" transform="translate(32 228)" id="calendar_icon"></path></g></g></g></svg>
+              <div>Grow your business</div>
+            </li>
+            <li className="tutor-li">
+              <svg className="tutor-svg" width="18" height="18" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Fill 4</title><g id="Page-1" fill="none" fill-rule="evenodd"><g id="Artboard" fill="#3BB3BD"><g id="Page-1"><path d="M10 0c5.523 0 10 4.477 10 10s-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0zm0 18.3c4.577 0 8.3-3.724 8.3-8.3 0-4.576-3.723-8.3-8.3-8.3-4.577 0-8.3 3.724-8.3 8.3 0 4.576 3.723 8.3 8.3 8.3zm-.46-1.918v-1.227c-1.417-.11-2.467-.641-3.176-1.418l.886-1.228a3.926 3.926 0 0 0 2.29 1.214V11.09c-1.404-.354-2.89-.86-2.89-2.645 0-1.391 1.132-2.482 2.89-2.632V4.546h1.092v1.28c1.104.124 2.032.547 2.74 1.229L12.46 8.24a3.653 3.653 0 0 0-1.827-.954v2.345c1.418.382 2.945.914 2.945 2.74 0 1.392-.9 2.605-2.945 2.783v1.227H9.54zm2.415-3.86c0-.613-.573-.913-1.323-1.145v2.36c.94-.15 1.323-.696 1.323-1.214zm-3.67-4.185c0 .53.533.804 1.256 1.009V7.218c-.777.082-1.255.519-1.255 1.119z" id="Fill-4"></path></g></g></g></svg>
+              <div>Get paid securely</div>
+            </li>
+          </ul>
+          <div className="tutor-story-action">
+            <Link className="tutor-btn">Become a tutor</Link>
+            <Link className="tutor-link">
+              <svg className="link-svg" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Combined Shape</title><g id="Main-Page" fill="none" fill-rule="evenodd" opacity=".8"><g id="01_1_Main_page_Web_Hovers" transform="translate(-298 -4898)" fill="#3BB3BD"><g id="Become-a-tutor" transform="translate(32 4531)"><g id="icon_info" transform="translate(264 365)"><path d="M10 0c5.514 0 10 4.486 10 10s-4.486 10-10 10S0 15.514 0 10 4.486 0 10 0zm0 18.182c4.512 0 8.182-3.67 8.182-8.182 0-4.511-3.67-8.181-8.182-8.181-4.51 0-8.182 3.67-8.182 8.181 0 4.511 3.671 8.182 8.182 8.182zM9.09 10a.91.91 0 0 1 1.82 0v3.636a.909.909 0 1 1-1.82 0V10zm.265-4.282a.952.952 0 0 1 1.29 0c.164.173.264.41.264.646 0 .236-.1.472-.264.645a.956.956 0 0 1-.645.264.956.956 0 0 1-.645-.264.956.956 0 0 1-.264-.645c0-.237.1-.473.264-.646z" transform="translate(2 2)" id="Combined-Shape"></path></g></g></g></g></svg>
+              How our platform works
+            </Link>
+          </div>
+        </div>
+      </div>
     </div>
     
     </div>
