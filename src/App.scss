@@ -1755,6 +1755,16 @@ main {
   border-radius: 4px 4px 0 0;
 }
 
+.getstarted-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
 .getstarted-title {
   margin-bottom: 16px;
   color: #384047;
