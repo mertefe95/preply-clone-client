@@ -1874,3 +1874,96 @@ main {
   transition: background-color 50ms;
   padding: 8px 16px;
 }
+
+.stick-section-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.second-lowest-div {
+  width: 100%;
+  border-top: 1px solid #dadfe1;
+  padding: 0 32px;
+}
+
+.second-lowest-link {
+  display: block;
+  margin: 8px 16px 8px 0;
+  min-height: auto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.23;
+  color: #384047;
+  border: 1px solid #dadfe1;
+  background-color: transparent;
+  position: relative;
+  text-decoration: none;
+  border-radius: 2px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 100%;
+  cursor: pointer;
+  outline: 0;
+  transition: background-color 50ms;
+  padding: 8px 16px;
+}
+
+.second-lowest-wrap {
+  width: 100%;
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  display: block;
+  user-select: none;
+  touch-action: pan-y;
+}
+
+.stick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+  transform: translateZ(0);
+}
+
+.stick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: stretch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stick-track::after {
+  clear: both;
+}
+
+.stick-track::before,
+.stick-track::after {
+  content: "";
+  display: table;
+}
+
+.stick-slide {
+  padding: 0;
+  border-right: 1px solid #dadfe1;
+  display: flex;
+}
+
+.stick-section {
+  padding-right: 32px;
+  padding: 24px 0;
+}
+
+.stick-section-h {
+  color: #6f757b;
+  font-weight: 300;
+  line-height: 1.4285;
+  font-size: 16px;
+}

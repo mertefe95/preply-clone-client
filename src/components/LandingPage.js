@@ -900,23 +900,39 @@ const LandingPage = () => {
         <div className="stick-slider">
           <div className="stick-list">
             <div className="stick-track" style={{ width: "1216px", opacity: "1", transform: "translate3d(0px, 0px, 0px)"}}>
-              <div className="stick-slide" data-index="0" tabindex="-1" aria-hidden="false" style={{ outline: "currentColor none medium", width: "608px"}}>
+              <div className="stick-slide stick-current" data-index="0" tabindex="-1" aria-hidden="false" style={{ outline: "currentColor none medium", width: "608px"}}>
                 <div>
                   <section className="stick-section" tabindex="-1" style={{width: "100%", display: "inline-block"}} >
                     <h3 className="stick-section-h">Take lessons online</h3>
                     <div className="stick-section-div">
-                      <Link>English via Skype</Link>
-                      <Link>Spanish via Skype</Link>
-                      <Link>German via Skype</Link>
-                      <Link>French via Skype</Link>
-                      <Link>English native speakers via Skype</Link>
-                      <Link>Native Russian speakers via Skype</Link>
-                      <Link>Native German speakers via Skype</Link>
-                      <Link>Native French speakers via Skype</Link>
+                      <Link className="second-lowest-link">English via Skype</Link>
+                      <Link className="second-lowest-link">Spanish via Skype</Link>
+                      <Link className="second-lowest-link">German via Skype</Link>
+                      <Link className="second-lowest-link">French via Skype</Link>
+                      <Link className="second-lowest-link">English native speakers via Skype</Link>
+                      <Link className="second-lowest-link">Native Russian speakers via Skype</Link>
+                      <Link className="second-lowest-link">Native German speakers via Skype</Link>
+                      <Link className="second-lowest-link">Native French speakers via Skype</Link>
                     </div>
                   </section>
                 </div>
-
+              </div>
+              <div className="stick-slide" data-index="1" tabindex="-1" aria-hidden="false" style={{ outline: "currentColor none medium", width: "608px"}}>
+                <div>
+                  <section className="stick-section" tabindex="-1" style={{width: "100%", display: "inline-block", paddingLeft: "32px"}} >
+                    <h3 className="stick-section-h">Learn in your city</h3>
+                    <div className="stick-section-div">
+                      <Link className="second-lowest-link">Los Angeles</Link>
+                      <Link className="second-lowest-link">Chicago</Link>
+                      <Link className="second-lowest-link">Sydney</Link>
+                      <Link className="second-lowest-link">Vancouver</Link>
+                      <Link className="second-lowest-link">London</Link>
+                      <Link className="second-lowest-link">Toronto</Link>
+                      <Link className="second-lowest-link">New York City</Link>
+                      <Link className="second-lowest-link">Liverpool</Link>
+                    </div>
+                  </section>
+                </div>
               </div>
             </div>
           </div>
