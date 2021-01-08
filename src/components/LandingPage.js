@@ -731,7 +731,7 @@ const LandingPage = () => {
               </div>
             </div>
             <div className="box-image">
-            <picture class="box-picture"><source srcSet="https://preply.com/static/ssr/_next/static/images/step-3-small-fc3a91f2d43bce5a8d6e5d49820b607a.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-3-small-6d10d20c74efba017593cbbda6620b93.png" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-3-feeae6564b5d004de9310d502f3b5b57.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/step-3-91630db4e7bb6a200547926c8870169a.png" alt="web" className="box-pic-img" /></picture>
+            <picture className="box-picture"><source srcSet="https://preply.com/static/ssr/_next/static/images/step-3-small-fc3a91f2d43bce5a8d6e5d49820b607a.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-3-small-6d10d20c74efba017593cbbda6620b93.png" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-3-feeae6564b5d004de9310d502f3b5b57.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/step-3-91630db4e7bb6a200547926c8870169a.png" alt="web" className="box-pic-img" /></picture>
             </div>
           </div>
           <div className="box-row">
@@ -747,7 +747,7 @@ const LandingPage = () => {
               </div>
             </div>
             <div className="box-image">
-            <picture class="box-picture"><source srcSet="https://preply.com/static/ssr/_next/static/images/step-4-small-63b87b323ed7a1d79bff6870d73179da.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-4-small-509fbf943374d5401457ab8c69ac2d9d.png" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-4-4a01d56f3d6e21b52770a6b0ed763b2e.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/step-4-9ed4e32d021eb3d547fbd872dffb8d97.png" alt="web" className="box-pic-img" /></picture>
+            <picture className="box-picture"><source srcSet="https://preply.com/static/ssr/_next/static/images/step-4-small-63b87b323ed7a1d79bff6870d73179da.webp" type="image/webp" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-4-small-509fbf943374d5401457ab8c69ac2d9d.png" type="image/png" media="(max-width: 480px)" /><source srcSet="https://preply.com/static/ssr/_next/static/images/step-4-4a01d56f3d6e21b52770a6b0ed763b2e.webp" type="image/webp" /><img src="https://preply.com/static/ssr/_next/static/images/step-4-9ed4e32d021eb3d547fbd872dffb8d97.png" alt="web" className="box-pic-img" /></picture>
             </div>
           </div>
         </div>
@@ -856,6 +856,30 @@ const LandingPage = () => {
 
       </div>
 
+    </div>
+
+    <div className="wrapper-last-item">
+      <div className="wrapper-getstarted">
+        <picture className="getstarted-picture">
+          <source srcSet="https://preply.com/static/ssr/_next/static/images/student-small-1-9416430b35d09145b121187fbbbe8b85.webp" type="image/webp" media="(max-width: 480px)" />
+          <source srcSet="https://preply.com/static/ssr/_next/static/images/student-small-0a40eb37e7daad88b3f1fbe35f9d0314.jpg" type="image/png" media="(max-width: 480px)" />
+          <source srcSet="https://preply.com/static/ssr/_next/static/images/student-pda-1-0c7186bfb1711d6243b273319f2cfc54.webp" type="image/webp" media="(max-width: 960px)" />
+          <source srcSet="https://preply.com/static/ssr/_next/static/images/student-pda-2a5c19e971678baced35526b039c3384.jpg" type="image/png" media="(max-width: 960px)" />
+          <source srcSet="https://preply.com/static/ssr/_next/static/images/student-1-aa9274edd2064fc6033494e1ac9108f1.webp" type="image/webp" />
+          <img src="https://preply.com/static/ssr/_next/static/images/student-2a5c19e971678baced35526b039c3384.jpg" alt="web" className="getstarted-img" />
+        </picture>
+        <div className="getstarted-content">
+          <svg className="getstarted-svg" width="64" height="64" xmlns="http://www.w3.org/2000/svg"><title>preply_logo_icon</title><g fill="none"><circle fill="#fff" cx="32" cy="32" r="32"></circle><path d="M25.788 21.157c-2.833-.8-6.05-1.709-8.395-3.771l-.08-.034-.143.013-.005 11.953c0 .722.146 1.386.437 1.99.299.62.754 1.193 1.364 1.716 1.954 1.675 4.867 2.497 7.436 3.223 1.708.482 3.288.929 4.491 1.57V23.889c0-1.29-2.329-1.948-5.105-2.732z" fill="#3BB3BD"></path><path d="M33.208 23.607c.124.435.536.794 1.145 1.113 1-.407 2.185-.742 3.444-1.097 1.889-.534 3.959-1.119 5.727-2.056a.63.63 0 0 1 .852.265.633.633 0 0 1-.264.854c-1.887 1.001-4.024 1.604-5.974 2.155a64.87 64.87 0 0 0-1.998.587c.652.21 1.377.415 2.134.629.463.131.937.264 1.415.405 1.317-.403 2.644-.875 3.835-1.506a.63.63 0 0 1 .852.265.633.633 0 0 1-.264.854c-.764.405-1.568.745-2.386 1.042 1.741.621 3.443 1.423 4.846 2.626l.28.25a4.97 4.97 0 0 0 .045-.675V17.367l-.005-.002-.143-.013-.08.034c-2.344 2.062-5.562 2.971-8.395 3.771-2.566.725-4.75 1.342-5.065 2.45m-.04 17c0 1.29 2.329 1.948 5.105 2.732 2.833.8 6.05 1.709 8.395 3.771l.08.034.143-.013.005-.002V35.178c0-.722-.146-1.386-.436-1.989-.299-.62-.754-1.194-1.364-1.717-1.954-1.675-4.867-2.498-7.436-3.223-1.707-.482-3.288-.929-4.491-1.57v13.928" fill="#F8463D"></path><path d="M26.266 40.873c-1.889.533-3.959 1.119-5.727 2.056a.633.633 0 0 1-.588-1.119c1.887-1.001 4.024-1.604 5.975-2.155.701-.199 1.376-.389 1.998-.587-.652-.211-1.377-.415-2.134-.629-.463-.131-.937-.264-1.415-.406-1.317.403-2.644.875-3.835 1.506a.63.63 0 0 1-.852-.265.633.633 0 0 1 .264-.854 18.973 18.973 0 0 1 2.386-1.043c-1.741-.62-3.443-1.423-4.846-2.626l-.28-.25a4.97 4.97 0 0 0-.045.675v11.951l.148.015.08-.034c2.344-2.063 5.562-2.971 8.395-3.771 2.566-.725 4.75-1.341 5.065-2.45-.124-.434-.535-.793-1.144-1.113-1 .407-2.185.742-3.444 1.097z" fill="#3BB3BD"></path></g></svg>
+          <div className="getstarted-title">
+            <span>Every year <span className="highlightedText">100 000+ students</span>prepare to speak confidently on Preply</span>
+          </div>
+          <div className="getstarted-subtitle">
+            <span>Get fast results with professional online tutors. Prepare to achieve your goals today.</span>
+          </div>
+          <Link className="getstarted-btn">Start Learning</Link>
+
+        </div>
+      </div>
     </div>
     
     </div>
