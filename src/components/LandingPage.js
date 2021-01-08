@@ -881,6 +881,48 @@ const LandingPage = () => {
         </div>
       </div>
     </div>
+
+    <div className="lowest-div">
+      <div className="lowest-wrap">
+        <section className="lowest-wrap-section">
+          <h3 className="lowest-wrap-h">Free learning resources</h3>
+          <div className="lowest-wrap-links-block">
+            <Link className="lowest-wrap-btn">How to learn English</Link>
+            <Link className="lowest-wrap-btn">Blog</Link>
+            <Link className="lowest-wrap-btn">Ask a tutor</Link>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div className="second-lowest-div">
+      <div className="second-lowest-wrap">
+        <div className="stick-slider">
+          <div className="stick-list">
+            <div className="stick-track" style={{ width: "1216px", opacity: "1", transform: "translate3d(0px, 0px, 0px)"}}>
+              <div className="stick-slide" data-index="0" tabindex="-1" aria-hidden="false" style={{ outline: "currentColor none medium", width: "608px"}}>
+                <div>
+                  <section className="stick-section" tabindex="-1" style={{width: "100%", display: "inline-block"}} >
+                    <h3 className="stick-section-h">Take lessons online</h3>
+                    <div className="stick-section-div">
+                      <Link>English via Skype</Link>
+                      <Link>Spanish via Skype</Link>
+                      <Link>German via Skype</Link>
+                      <Link>French via Skype</Link>
+                      <Link>English native speakers via Skype</Link>
+                      <Link>Native Russian speakers via Skype</Link>
+                      <Link>Native German speakers via Skype</Link>
+                      <Link>Native French speakers via Skype</Link>
+                    </div>
+                  </section>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     
     </div>
     </div>
