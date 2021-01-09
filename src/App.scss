@@ -2730,26 +2730,42 @@ main {
 
   .corporate-main {
     display: flex;
-    padding: 0 15px;
+    padding: 0 100px;
   }
 
   .corporate-ul {
-    padding: 0 15px;
+    padding: 20px 15px;
+    text-align: left;
+  }
+
+  .corporate-h2 {
+    font-size: 32px;
+  }
+
+  .corporate-h4 {
+    font-size: 30px;
+  }
+
+  .corporate-p {
+    font-size: 25px;
   }
 }
 
-@media screen and (max-width: 950px) {
-  .advantages-ul {
+@media screen and (min-width: 950px) {
+  .online-training-img-wrapper {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .what-you-get-ul-div {
+    display: flex;
+  }
+
+  .what-you-get-ul {
+    text-align: left;
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 450px;
   }
-}
-
-.lower-enterprise-box {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.lower-enerprise-ul {
-  padding-top: 50px;
 }
