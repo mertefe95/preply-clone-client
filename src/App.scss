@@ -2470,3 +2470,92 @@ main {
   border-color: #35a1aa;
   border: 1px solid #35a1aa;
 }
+
+/////***** ENTERPRISE CSS ********////
+
+.upper-enterprise-wrapper {
+  width: 100%;
+  margin: 90px 10px;
+  font-family: "Arial";
+}
+
+.first-enterprise-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.left-enterprise-h {
+  line-height: 1.42;
+  font-size: 32px;
+  font-weight: 600;
+  color: #384047;
+}
+
+.left-enterprise-p {
+  color: #384047;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.enterprise-ul {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.first-enterprise-link {
+  color: #33aab4;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.enterprise-li {
+  font-size: 22px;
+}
+
+.enterprise-form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.enterprise-input {
+  border: 1px solid rgb(209, 209, 209);
+  box-shadow: rgba(0, 0, 0, 0.04) 1px 1px 3px;
+}
+
+.enterprise-btn:hover {
+  background: #63c3cb;
+  color: #fff;
+  border-color: #63c3cb;
+  border: 1px solid #63c3cb;
+}
+
+.enterprise-btn:active {
+  background: #35a1aa;
+  color: #fff;
+  border-color: #35a1aa;
+  border: 1px solid #35a1aa;
+}
+
+.enterprise-btn:visited {
+  background: #35a1aa;
+  color: #fff;
+  border-color: #35a1aa;
+  border: 1px solid #35a1aa;
+}
+
+.enterprise-btn {
+  background: #3bb3bd;
+  color: #fff;
+  border: 1px solid #3bb3bd;
+  margin-top: 10px;
+}

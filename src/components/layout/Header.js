@@ -27,7 +27,7 @@ export default function Header() {
     
       <div className="second-half-nav">
       <ul className="rightside-icons">
-      <li id="question-mark" className="header-li"><Link className="header-link"><i className="far fa-question-circle fonticon"></i> </Link></li>
+      <li id="question-mark" className="header-li"><Link id="question-link" className="header-link"><i className="far fa-question-circle fonticon"></i> </Link></li>
       
       
       <li id="login-mark" className="header-li"><Link className="header-link" to="/login"><i className="fas fa-sign-in-alt fonticon"></i>
