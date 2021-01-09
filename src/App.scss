@@ -2559,3 +2559,50 @@ main {
   border: 1px solid #3bb3bd;
   margin-top: 10px;
 }
+
+.lower-enterprise-ul {
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.corporate-language-wrapper {
+  background-color: #f8f8f8;
+}
+
+.corporate-language-box {
+  margin: 20px 10px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.corporate-ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.corporate-li {
+  padding: 10px 0;
+}
+
+.corporate-h2 {
+  font-weight: bold;
+  font-size: 32px;
+  color: #41494f;
+}
+
+.corporate-h4 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.7;
+  color: #41494f;
+}
+
+.corporate-p {
+  line-height: 1.9;
+  font-size: 20px;
+}
