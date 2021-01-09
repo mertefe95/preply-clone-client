@@ -2722,3 +2722,34 @@ main {
   padding: 10px 50px;
   border-radius: 3px;
 }
+
+@media screen and (min-width: 950px) {
+  .lower-enterprise-ul {
+    flex-direction: row;
+  }
+
+  .corporate-main {
+    display: flex;
+    padding: 0 15px;
+  }
+
+  .corporate-ul {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .advantages-ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.lower-enterprise-box {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.lower-enerprise-ul {
+  padding-top: 50px;
+}
