@@ -2583,6 +2583,7 @@ main {
   display: flex;
   flex-direction: column;
   list-style: none;
+  padding: 10px 0;
 }
 
 .corporate-li {
@@ -2593,6 +2594,7 @@ main {
   font-weight: bold;
   font-size: 32px;
   color: #41494f;
+  padding-bottom: 20px;
 }
 
 .corporate-h4 {
@@ -2605,4 +2607,30 @@ main {
 .corporate-p {
   line-height: 1.9;
   font-size: 20px;
+}
+
+.online-training-box {
+  margin: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.online-training-h2 {
+  color: #41494f;
+  font-weight: bold;
+  font-size: 32px;
+  padding: 20px 0;
+}
+
+.online-training-img-div {
+  padding: 10px 0;
+  line-height: 1.8;
+  font-size: 20px;
+}
+
+.online-training-p {
+  padding: 20px 0;
 }
