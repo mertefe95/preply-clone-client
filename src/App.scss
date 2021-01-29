@@ -1573,7 +1573,6 @@ main {
 .box-row {
   display: flex;
   align-items: center;
-  margin-bottom: 48px;
   font-size: 14px;
 }
 
@@ -3324,14 +3323,14 @@ main {
   .box-main {
     flex-direction: column;
     text-align: center;
+    padding: 50px 0 !important;
   }
-
   .box-info {
     flex-direction: column;
   }
 
   .box-image {
-    padding: 80px 0;
+    padding: 80px 0 !important;
   }
 
   .box-number {
@@ -3384,6 +3383,29 @@ main {
   }
 
   .box-pic-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+
+  .box-line-icon-svg {
+    height: 45px;
+    width: 45px;
+  }
+
+  .titlewrap-h {
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .titlewrap-p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 60px;
   }
 }
 
