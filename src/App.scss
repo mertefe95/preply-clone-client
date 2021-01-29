@@ -1713,6 +1713,8 @@ main {
   left: 0;
   height: 100%;
   object-fit: cover;
+  opacity: 1;
+  transition: opacity 0.3s;
 }
 
 .tutor-story-main {
@@ -3316,6 +3318,10 @@ main {
     margin: 0 -12px;
   }
 
+  .box-row:last-child {
+    border-bottom: none;
+  }
+
   .box-row:first-child {
     padding-top: 0;
   }
@@ -3406,6 +3412,55 @@ main {
     font-size: 16px;
     font-weight: 400;
     padding-bottom: 60px;
+  }
+
+  .tutor-with-preply {
+    width: 100%;
+    margin: 0 auto 40px;
+    padding: 0 16px;
+  }
+
+  .tutor-story-img,
+  .tutor-story-main {
+    width: 100%;
+    min-width: 100%;
+    padding: 10px 15px;
+  }
+
+  .tutor-story-action {
+    margin-top: 0;
+  }
+
+  .tutor-story-wrapper {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .tutor-link {
+    display: none !important;
+  }
+
+  .tutor-main-title {
+    font-size: 26px;
+    font-weight: 400;
+  }
+
+  .tutor-subtitle {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .tutor-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-right: 0;
+  }
+
+  .tutor-img {
+    width: 100%;
   }
 }
 
