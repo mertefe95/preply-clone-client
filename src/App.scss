@@ -1,10 +1,11 @@
-@import "~bootstrap/scss/bootstrap";
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Roboto' !important;
 }
 
 .hamburger-side {
@@ -20,11 +21,11 @@ $button-active-color: #35a1aa;
 $box-shadow-color: rgb(59, 179, 189.3);
 
 $theme-colors: (
-  "preply-color": rgb(80, 187, 196),
+  'preply-color': rgb(80, 187, 196),
 );
 
-$arial: "Arial";
-$roboto: "Roboto";
+$arial: 'Arial';
+$roboto: 'Roboto';
 
 @mixin flexCenter($direction) {
   display: flex;
@@ -36,8 +37,7 @@ $roboto: "Roboto";
 .header {
   width: 100%;
   position: relative;
-  background: transparent
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0));
+  background: transparent linear-gradient(to bottom, rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0));
 }
 
 .header:hover .navbar {
@@ -74,7 +74,6 @@ $roboto: "Roboto";
 }
 
 .navbar {
-  font-family: "Arial";
   font-size: 14px;
   display: flex;
   justify-content: space-evenly;
@@ -141,7 +140,7 @@ $roboto: "Roboto";
 }
 
 .promo-img::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 28%;
   bottom: 0;
@@ -156,7 +155,7 @@ $roboto: "Roboto";
 .login-form {
   margin-bottom: 100px;
   background-color: #fff;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   height: 60vh;
   width: 40vw;
 }
@@ -191,7 +190,7 @@ $roboto: "Roboto";
 }
 .or-span::before,
 .or-span::after {
-  content: "";
+  content: '';
   flex-grow: 1;
   background: #999;
   height: 0.6px;
@@ -202,7 +201,7 @@ $roboto: "Roboto";
 
 .form-label {
   font-size: 14px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 600;
   line-height: 18px;
   color: #333;
@@ -222,7 +221,7 @@ $roboto: "Roboto";
   justify-content: space-around;
   font-size: 14px;
   color: #63c3cb;
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 
 .email-span {
@@ -230,7 +229,7 @@ $roboto: "Roboto";
   justify-content: space-around;
   font-size: 14px;
   color: #63c3cb;
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 
 .form-span-p {
@@ -252,7 +251,6 @@ $roboto: "Roboto";
 
 .upper-footer {
   color: #e3e5e6;
-  font-family: "Arial";
   font-size: 14px;
   line-height: 24px;
   background-color: #384047;
@@ -260,7 +258,6 @@ $roboto: "Roboto";
 
 .lower-footer {
   color: #e3e5e6;
-  font-family: "Arial";
   font-size: 12px;
   line-height: 20.5667px;
   background-color: #32393f;
@@ -463,9 +460,8 @@ $roboto: "Roboto";
   padding: 10px 120px;
   background-color: $button-color;
   border-color: $button-color;
-  font-family: "Roboto";
-  transition: color 50ms, background-color 50ms, border-color 50ms,
-    box-shadow 0.2s;
+  font-family: 'Roboto';
+  transition: color 50ms, background-color 50ms, border-color 50ms, box-shadow 0.2s;
   border-radius: 0px;
 
   &.btn:hover {
@@ -483,7 +479,6 @@ $roboto: "Roboto";
 }
 
 .globe-upper-header {
-  font-family: $arial;
   color: #384047;
   font-size: 32px;
   font-weight: 500;
@@ -493,7 +488,6 @@ $roboto: "Roboto";
 }
 
 .globe-upper-p {
-  font-family: $arial;
   font-size: 18px;
   line-height: 1.42;
   text-align: center;
@@ -537,7 +531,7 @@ $roboto: "Roboto";
 }
 
 .marker-globe {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -551,13 +545,14 @@ $roboto: "Roboto";
 
 .skills-icon-break::before {
   position: absolute;
-  content: "";
+  content: '';
   top: 50%;
   left: 0;
   width: 100%;
   height: 1px;
   transform: translateY(-50%);
-  background-color: #f2f2f2;
+  background: #f2f2f2;
+  border: 1px solid #f2f2f2;
 }
 
 .skills-icon-break {
@@ -584,7 +579,6 @@ $roboto: "Roboto";
 }
 
 .skills-h2 {
-  font-family: "Arial";
   color: #384047;
   font-size: 32px;
   font-weight: 500;
@@ -593,13 +587,11 @@ $roboto: "Roboto";
 }
 
 .skills-p {
-  font-family: "Arial";
   font-size: 16px;
   line-height: 1.4285714;
 }
 
 .skills-ul {
-  font-family: "Arial";
   font-size: 14px;
   line-height: normal;
   font-weight: 400;
@@ -649,7 +641,6 @@ $roboto: "Roboto";
 }
 
 .skills-title-p {
-  font-family: "Arial";
   font-size: 18px;
   line-height: 1.4285714;
   font-weight: 400;
@@ -663,7 +654,6 @@ $roboto: "Roboto";
 }
 
 .skills-subtitle {
-  font-family: "Arial";
   font-size: 18px;
   line-height: 1.4285714;
   text-align: center;
@@ -686,7 +676,6 @@ $roboto: "Roboto";
   margin-top: 16px;
   font-size: 14px;
   color: #384047;
-  font-family: "Arial";
   margin-bottom: 16px;
 }
 
@@ -717,7 +706,6 @@ $roboto: "Roboto";
 
 .success-story-h2 {
   font-size: 26px;
-  font-family: "Arial";
   font-weight: 500;
   color: #384047;
   font-weight: 500;
@@ -726,7 +714,6 @@ $roboto: "Roboto";
 .wrap-div {
   max-width: 1280px;
   margin: 0 auto;
-  font-family: "Arial";
 }
 
 .success-wrap-div {
@@ -736,7 +723,6 @@ $roboto: "Roboto";
   text-align: center;
   color: #384047;
   font-size: 14px;
-  font-family: "Arial";
 }
 
 .prepare-div {
@@ -790,7 +776,7 @@ $roboto: "Roboto";
 
 .slick-track::after,
 .slick-track::before {
-  content: "";
+  content: '';
   display: table;
 }
 
@@ -808,12 +794,10 @@ $roboto: "Roboto";
 
 .language-main-wrapper {
   font-size: 14px;
-  font-family: "Arial";
   font-weight: 400;
 }
 
 .advantages-p {
-  font-family: "Arial";
   line-height: 1.4285;
   margin-bottom: 8px;
   color: #384047;
@@ -861,7 +845,6 @@ $roboto: "Roboto";
 }
 
 .advantages-second-p {
-  font-family: "Arial";
   font-size: 14px;
   font-weight: 400;
   color: #6f757b;
@@ -897,7 +880,6 @@ $roboto: "Roboto";
   padding: 190px 32px;
   margin: 0 auto;
   position: relative;
-  font-family: "Arial";
 }
 
 .img-text-content {
@@ -942,7 +924,6 @@ $roboto: "Roboto";
   margin: 20px 0;
   font-size: 18px;
   font-weight: 400;
-  font-family: "Arial";
   border: none;
 }
 
@@ -1021,7 +1002,6 @@ $roboto: "Roboto";
   font-size: 20px;
   line-height: 28.5667px;
   font-weight: 500;
-  font-family: "Arial";
 }
 
 .grid-p {
@@ -1029,7 +1009,6 @@ $roboto: "Roboto";
   line-height: normal;
   font-weight: 400;
   color: #6f757b;
-  font-family: "Arial";
   font-weight: 400;
   line-height: normal;
 }
@@ -1065,7 +1044,6 @@ $roboto: "Roboto";
   display: flex;
   border-top: 1px solid #f2f2f2;
   position: relative;
-  font-family: "Arial";
   padding-left: 20px;
   background-color: white;
   width: 65.7%;
@@ -1115,7 +1093,6 @@ main {
   font-size: 14px;
   line-height: 20px;
   font-weight: 500;
-  font-family: "Arial";
   color: #384047;
 }
 
@@ -1124,7 +1101,6 @@ main {
   line-height: normal;
   font-weight: 400;
   color: #6f757b;
-  font-family: "Arial";
 }
 
 .languages-link {
@@ -1356,7 +1332,7 @@ main {
 }
 
 .marker::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -1448,7 +1424,7 @@ main {
 }
 
 .marker-photo::before {
-  content: "";
+  content: '';
   display: block;
   padding-top: 100%;
 }
@@ -1487,7 +1463,7 @@ main {
 }
 
 .marker-link::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -1496,7 +1472,7 @@ main {
 }
 
 .marker-link::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -12px;
   left: 50%;
@@ -1513,7 +1489,7 @@ main {
   position: absolute;
   top: 50%;
   left: 50%;
-  content: "";
+  content: '';
   width: 18px;
   height: 14px;
   display: inline-block;
@@ -1581,7 +1557,6 @@ main {
   font-weight: 500;
   line-height: 1.3;
   margin-bottom: 8px;
-  font-family: "Arial";
 }
 
 .box-p {
@@ -1589,12 +1564,10 @@ main {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.4285;
-  font-family: "Arial";
 }
 
 .how-it-works {
   padding: 32px 24px 48px;
-  font-family: "Arial";
 }
 
 .box-row {
@@ -1606,7 +1579,7 @@ main {
 
 .box-main {
   display: flex;
-  width: 50%;
+  width: 100%;
 }
 
 .box-number {
@@ -1710,7 +1683,6 @@ main {
   max-width: 1280px;
   margin: 0 auto 64px;
   padding: 0 32px;
-  font-family: "Arial";
   font-size: 14px;
 }
 
@@ -1791,8 +1763,7 @@ main {
   cursor: pointer;
   user-select: none;
   outline: 0;
-  transition: color 50ms, background-color 50ms, border-color 50ms,
-    box-shadow 0.2s;
+  transition: color 50ms, background-color 50ms, border-color 50ms, box-shadow 0.2s;
   border-radius: 2px;
   position: relative;
   display: inline-block;
@@ -1826,7 +1797,6 @@ main {
 .in-the-news-wrapper {
   max-width: 1280px;
   margin: 0 auto;
-  font-family: "Arial";
   font-size: 14px;
 }
 
@@ -1886,7 +1856,7 @@ main {
 
 .in-the-news-track::after,
 .in-the-news-track::before {
-  content: "";
+  content: '';
   display: table;
 }
 
@@ -1932,7 +1902,6 @@ main {
   max-width: 1280px;
   margin: 0 auto 64px;
   padding: 0 32px;
-  font-family: "Arial";
 }
 
 .wrapper-getstarted {
@@ -2015,7 +1984,6 @@ main {
   width: 100%;
   border-top: 1px solid #dadfe1;
   padding: 0 32px;
-  font-family: "Arial";
   font-size: 14px;
 }
 
@@ -2138,7 +2106,7 @@ main {
 
 .stick-track::before,
 .stick-track::after {
-  content: "";
+  content: '';
   display: table;
 }
 
@@ -2166,7 +2134,7 @@ main {
   justify-content: center;
   margin: 0 auto;
   width: 100%;
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 
 .form-table-row {
@@ -2313,14 +2281,13 @@ main {
   cursor: pointer;
   user-select: none;
   outline: 0;
-  transition: color 50ms, background-color 50ms, border-color 50ms,
-    box shadow 0.2s;
+  transition: color 50ms, background-color 50ms, border-color 50ms, box shadow 0.2s;
 }
 
 .sign-in-btn::before {
   left: 16px;
   color: currentcolor;
-  content: "";
+  content: '';
   display: inline-block;
   font: normal normal normal 14px/1 iconFont;
   font-size: inherit;
@@ -2350,7 +2317,7 @@ main {
 
 .login-page::before,
 .login-page::after {
-  content: "\0020";
+  content: '\0020';
   display: block;
   height: 0;
   visibility: hidden;
@@ -2437,7 +2404,7 @@ main {
 
 .sign-in-btn-google::before {
   left: 16px;
-  content: "";
+  content: '';
   display: inline-block;
   font: normal normal normal 14px/1 iconFont;
   font-size: inherit;
@@ -2493,7 +2460,7 @@ main {
 }
 
 .forgot-password::after {
-  content: ".";
+  content: '.';
   display: block;
   clear: both;
   visibility: hidden;
@@ -2589,7 +2556,7 @@ main {
 }
 
 .checkbox_label::before {
-  content: "";
+  content: '';
   border-radius: 2px;
   position: absolute;
   top: 0;
@@ -2613,7 +2580,7 @@ main {
   line-height: 1.4285;
   font-weight: 400;
   font-size: 14px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 
 .login-button {
@@ -2644,8 +2611,7 @@ main {
   cursor: pointer;
   user-select: none;
   outline: 0;
-  transition: color 50ms, background-color 50ms, border-color 50ms,
-    box-shadow 0.2s;
+  transition: color 50ms, background-color 50ms, border-color 50ms, box-shadow 0.2s;
   font-family: inherit;
   margin-bottom: 0;
 }
@@ -2676,7 +2642,6 @@ main {
 .upper-enterprise-wrapper {
   width: 100%;
   margin: 90px 10px;
-  font-family: "Arial";
 }
 
 .first-enterprise-box {
@@ -3296,4 +3261,153 @@ main {
   .marker-left {
     margin-left: 30px;
   }
+
+  .skills-top-icon {
+    width: 48px !important;
+    height: 48px !important;
+  }
+
+  .skills-top-icon svg {
+    transform: scale(0.75) !important;
+  }
+
+  .skills-h2 {
+    text-align: center !important;
+  }
+
+  .skills-title-top {
+    padding: 0 10px;
+  }
+
+  .skills-ul {
+    padding-top: 0 !important;
+  }
+
+  .skills-icon-break {
+    margin-top: 10px;
+  }
+
+  .skills-top-icon svg {
+    transform: scale(0.75) !important;
+  }
+
+  .preply-works-icon-div {
+    width: 48px !important;
+    height: 48px !important;
+  }
+
+  .preply-works-icon-div svg {
+    width: 23px !important;
+    height: 23px !important;
+  }
+
+  .box-h-title {
+    font-size: 24px;
+  }
+
+  .box-p {
+    font-size: 16px;
+  }
+
+  .box-row {
+    flex-direction: column-reverse;
+    border-bottom: 1px solid #eef0f2;
+    padding: 32px 24px;
+    text-align: center;
+    margin: 0 -12px;
+  }
+
+  .box-row:first-child {
+    padding-top: 0;
+  }
+
+  .box-main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .box-info {
+    flex-direction: column;
+  }
+
+  .box-image {
+    padding: 80px 0;
+  }
+
+  .box-number {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+    margin: 0 auto 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-info-h {
+    margin-bottom: 6px;
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 400;
+  }
+
+  .box-test {
+    line-height: 1.57;
+    color: #6f757b;
+    text-align: center;
+  }
+
+  .grid-h {
+    font-weight: 400;
+    font-size: 1em;
+  }
+
+  .languages-grid-p {
+    font-weight: 400;
+  }
+
+  .box-image {
+    max-width: 100%;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .box-picture {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+
+  .box-row:first-child .box-picture {
+    padding-top: 41.11% !important;
+  }
+
+  .box-pic-img {
+  }
+}
+
+.how-preply-works {
+  background-color: white;
+  padding: 0px;
+  margin: 40px 20px 20px 0;
+}
+
+.preply-works-icon-div {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  background: #3bb3bd;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+}
+
+.preply-works-icon-div svg {
+  width: 30px;
+  height: 30px;
 }
