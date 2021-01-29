@@ -288,6 +288,9 @@ $roboto: 'Roboto';
 
 .upper-first-ul {
   list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 50px;
 }
 
@@ -1915,6 +1918,7 @@ main {
   width: 100%;
   height: 400px;
   border-radius: 4px 4px 0 0;
+  max-height: 320px;
 }
 
 .getstarted-img {
@@ -3462,6 +3466,82 @@ main {
   .tutor-img {
     width: 100%;
   }
+
+  .getstarted-svg {
+    display: none;
+  }
+
+  .getstarted-content {
+    padding: 20px 15px;
+  }
+
+  .getstarted-title {
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .getstarted-subtitle {
+    line-height: 1;
+    font-size: 15px;
+  }
+
+  .getstarted-btn {
+    padding: 12px 55px;
+  }
+
+  .lowest-wrap-btn {
+    border: none;
+    margin: 0;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .lowest-wrap-links-block {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+  }
+
+  .second-lowest-link {
+    border: none;
+    border: none;
+    margin: 0;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 13px;
+  }
+
+  .stick-section-div {
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .upper-first-div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .upper-first-ul {
+    margin: 0;
+    padding: 0;
+    padding-right: 100px;
+    margin-right: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .upper-footer {
+    padding-right: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+  }
 }
 
 .how-preply-works {
@@ -3487,4 +3567,24 @@ main {
 .preply-works-icon-div svg {
   width: 30px;
   height: 30px;
+}
+
+.teach-layout {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 12px auto 48px;
+  overflow: hidden;
+}
+
+.teach-form-wrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  margin: 0px auto;
+  padding: 32px 0px;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
 }
